@@ -12,6 +12,10 @@
     $(document).on('ready', function() {
 
 
+        var date = new Date();
+        var year = date.getFullYear();
+        document.getElementById("year").innerHTML = year;
+
         /* ==================================================
             # Wow Init
          ===============================================*/
@@ -391,3 +395,5 @@
 
     }); // end document ready function
 })(jQuery); // End jQuery
+
+

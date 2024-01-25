@@ -3587,6 +3587,8 @@ body,
   border-bottom: none;
   margin-bottom: 40px !important;
   padding-right: 20px;
+  height: 457.2px;
+  overflow-y: scroll;
 }
 
 .center-tabs .nav-tabs li {
