@@ -6275,3 +6275,49 @@ footer .footer-bottom .text-right li {
             transform: rotate(360deg);
   }
 }
+
+@keyframes fadeInOut {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+  }
+}
+
+.mySlides {
+  animation-name: fadeInOut;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+#serviceblock{
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+#serviceinnerblock{
+  background-color: #6667AB;
+}
+
+#serviceinnerblock:hover{
+  background-color: white;
+  color: black;
+}
+
+#serviceinnerblock h4, #serviceinnerblock p{
+  color: white;
+}
+
+#serviceinnerblock:hover h4, #serviceinnerblock:hover p{
+  color: #e021ba;
+}
+
+
