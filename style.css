@@ -70,6 +70,7 @@ Table of contents
   font-family: 'Swis721ExBt';
   src: url("assets/fonts/swisse.ttf");
 }
+
 @font-face {
   font-family: 'Swis721ExBt';
   src: url("assets/fonts/swisseb.ttf");
@@ -3066,6 +3067,7 @@ body,
   position: relative;
   z-index: 1;
   overflow: hidden;
+  height: 100%;
 }
 
 .services-area.bg-gray .services-items .item,
@@ -6346,7 +6348,7 @@ footer .footer-bottom .text-right li {
 @media (max-width: 767px) {
 
   .mySlides h1 {
-    font-size: 7vh;
+    font-size: 5vh;
   }
 
   .about-us{
@@ -6383,5 +6385,7 @@ footer .footer-bottom .text-right li {
   margin-left: 20px;
 }
 
-
+#services-nav:hover~#hacky-navbar{
+  display: block;
+}
 

@@ -421,6 +421,16 @@
                 });
                 return false;
             });
+        }); 
+
+        var height = null;
+        $('.owl-item').each(function() {
+            if(height == null){
+                height = $(this).height();
+            }
+            else{
+                $(this).height(height);
+            }
         });
 
     }); // end document ready function

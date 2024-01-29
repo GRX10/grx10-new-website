@@ -71,13 +71,7 @@
                             <a href="#" data-toggle="dropdown">Company</a>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="services.html">Services Version One</a></li>
-                                <li><a href="services-2.html">Services Version Two</a></li>
-                                <li><a href="services-3.html">Services Version Three</a></li>
-                                <li><a href="services-4.html">Services Version Four</a></li>
-                            </ul>
+                            <a href="#" id="services-nav" class="dropdown-toggle" data-toggle="dropdown">Services</a>
                         </li>
                         <li><a href="case-studies.html">Case Studies</a></li>
                         <li class="dropdown">
@@ -100,6 +94,12 @@
     <div class="banner-area bg-shape text-light with-fixed-nav bg-cover-bottom heading-capitalized"
         style="background-image: url(assets/img/shape/bg-5.png);">
         <div class="container">
+        <div class="container" style="position: fixed;top: 69px; width: 100%; height: 100px; z-index: 1000;">
+            <div id="hacky-navbar" style="display: block; position: relative; left: -30px; background-color: black; width: calc(100% + 30px);z-index: 10000;">
+
+            </div>
+        </div>
+
             <div class="double-items">
                 <div class="row align-center">
                     <div class="col-lg-7 info">
@@ -449,7 +449,7 @@
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
-                <div class="item" style="height: 100%;">
+                <div class="item" style="height: 100%; display: flex; justify-content: center; align-items: center;">
                     <div class="info">
                         <a href="#"><i class="fas fa-arrow-right"></i> Read More Blogs..</a>
                     </div>
