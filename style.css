@@ -3614,7 +3614,7 @@ body,
 }
 
 .center-tabs .nav-tabs li a.active {
-  background: linear-gradient(90deg, rgba(65,84,241,1) 0%, rgba(14,32,173,1) 75%);
+  background: #E021Ba;
   color: #ffffff;
 }
 
@@ -6342,8 +6342,36 @@ footer .footer-bottom .text-right li {
   .about-us{
     margin-top: 10px;
   }
+
+  #tabs{
+    display: none;
+  }
+
+  #tabsContent{
+    display: none;
+  }
+
 }
 
+#service-heading{
+  color: white; 
+  background-color: #6667AB;
+}
+
+#service-heading:hover{
+  color: white; 
+  background-color: #6b94c1;
+}
+
+#service-heading.active{
+  color: black; 
+  background-color: #ffffff;
+  border: 1px solid #6667AB;
+}
+
+#service-subheading{
+  margin-left: 20px;
+}
 
 
 
