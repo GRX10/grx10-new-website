@@ -5,7 +5,7 @@ Author: validtheme
 Description:
 Version: 1.0
 
-Main Font    : Nunito
+Main Font    : Swis721ExBt
 Main Color   : #4154f1
 
 -------------------------------------
@@ -66,6 +66,16 @@ Table of contents
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Swis721ExBt';
+  src: url("assets/fonts/swisse.ttf");
+}
+@font-face {
+  font-family: 'Swis721ExBt';
+  src: url("assets/fonts/swisseb.ttf");
+  font-weight: bold;
+}
+
 html {
   width: 100%;
   height: 100%;
@@ -74,7 +84,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Swis721ExBt', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
@@ -91,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #232323;
   font-weight: normal;
   line-height: 1.2;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Swis721ExBt', sans-serif;
   letter-spacing: 0;
   margin: 0;
 }
@@ -183,7 +193,7 @@ a {
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   text-decoration: none;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Swis721ExBt', sans-serif;
   font-weight: 700;
 }
 
@@ -512,7 +522,7 @@ input {
 
 .btn {
   display: inline-block;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Swis721ExBt', sans-serif;
   font-weight: 700;
   line-height: 25px;
   text-transform: capitalize;
@@ -5052,7 +5062,7 @@ i.fas.fa-envelope-open {
 .blog-area .sidebar button[type="submit"] {
   background: transparent;
   color: #232323;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Swis721ExBt', sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
   min-height: 50px;
@@ -5150,7 +5160,7 @@ i.fas.fa-envelope-open {
 }
 
 .sidebar-item.recent-post .meta-title {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Swis721ExBt', sans-serif;
   margin-top: 15px;
   font-weight: 700;
   text-transform: capitalize;
@@ -5364,7 +5374,7 @@ i.fas.fa-envelope-open {
   background: #4154f1 none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Swis721ExBt', sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 3px 20px;
@@ -5384,7 +5394,7 @@ i.fas.fa-envelope-open {
 
 .blog-area.single .content-box .meta .date {
   float: right;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Swis721ExBt', sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -5682,7 +5692,7 @@ i.fas.fa-envelope-open {
   border: 1px solid transparent;
   color: #ffffff;
   display: inline-block;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Swis721ExBt', sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 25px;
@@ -6293,13 +6303,13 @@ footer .footer-bottom .text-right li {
 }
 
 .mySlides h1{
-  font-size: 9vh;
+  font-size: 7vh;
   color: #E021Ba;
   font-weight: bold;
 }
 
 .hero-text{
-  font-size: 7vh;
+  font-size: 6vh;
   padding-left: 5px;
 }
 

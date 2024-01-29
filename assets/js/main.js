@@ -348,11 +348,11 @@
             # Services Stage Carousel
          ===============================================*/
         $('.services-stage-carousel').owlCarousel({
-            loop: true,
-            nav: false,
+            loop: false,
+            nav: true,
             margin:30,
-            dots: true,
-            autoplay: true,
+            dots: false,
+            autoplay: false,
             items: 1,
             navText: [
                 "<i class='fa fa-angle-left'></i>",
