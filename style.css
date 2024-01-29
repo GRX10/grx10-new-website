@@ -6296,6 +6296,16 @@ footer .footer-bottom .text-right li {
   animation-fill-mode: both;
 }
 
+.mySlides h1{
+  font-size: 9vh;
+  color: #E021Ba;
+  font-weight: bold;
+}
+
+.hero-text{
+  font-size: 7vh;
+}
+
 #serviceblock{
   height: 100%;
   padding-top: 30px;
@@ -6319,5 +6329,22 @@ footer .footer-bottom .text-right li {
 #serviceinnerblock:hover h4, #serviceinnerblock:hover p{
   color: #e021ba;
 }
+
+.about-us{
+  margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+
+  .mySlides h1 {
+    font-size: 7vh;
+  }
+
+  .about-us{
+    margin-top: 10px;
+  }
+}
+
+
 
 
