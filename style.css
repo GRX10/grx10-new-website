@@ -134,6 +134,7 @@ p {
 }
 
 hr {
+  display: none;
   margin-top: 0;
   margin-bottom: 0;
   border: 0;
@@ -3436,11 +3437,6 @@ body,
 
 
 /* Process */
-
-.our-process-area .process-box .single-item {
-  margin-bottom: 30px;
-}
-
 .our-process-area .process-box .single-item:nth-child(2n) {
   margin-top: 50px;
 }
@@ -6304,6 +6300,7 @@ footer .footer-bottom .text-right li {
 
 .hero-text{
   font-size: 7vh;
+  padding-left: 5px;
 }
 
 #serviceblock{
@@ -6315,6 +6312,8 @@ footer .footer-bottom .text-right li {
 
 #serviceinnerblock{
   background-color: #6667AB;
+  padding: 40px 0px 40px 0px;
+  border-radius: 10px;
 }
 
 #serviceinnerblock:hover{
