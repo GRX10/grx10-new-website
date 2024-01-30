@@ -221,22 +221,113 @@
         </div>
     </div>
     <!-- End Our Benefits -->
+    <!-- Mobile dropdown menu trial 1
+    <div id="mobile-dropdown-container">
+        <div id="mobile-dropdown-menu">
+            <label for="touch" id="mobile-dropdown-label"><span>Product Marketing</span></label>
+            <input type="checkbox" id="touch">
+            <ul class="slide" id="mobile-dropdown-ul">
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+            </ul>
+        </div>
 
-    <!-- Mobile dropdown menu-->
-    <div id="mobile-dropdown-menu">
-        <label for="touch" id="mobile-dropdown-label"><span>titre</span></label>
-        <input type="checkbox" id="touch">
+        <div id="mobile-dropdown-menu">
+            <label for="touch1" id="mobile-dropdown-label"><span>Digital Marketing</span></label>
+            <input type="checkbox" id="touch1">
+            <ul class="slide1" id="mobile-dropdown-ul">
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+            </ul>
+        </div>
 
-        <ul class="slide" id="mobile-dropdown-ul">
-            <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
-            <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
-            <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
-            <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
-        </ul>
-
+        <div id="mobile-dropdown-menu">
+            <label for="touch2" id="mobile-dropdown-label"><span>E-Commerce</span></label>
+            <input type="checkbox" id="touch2">
+            <ul class="slide2" id="mobile-dropdown-ul">
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+                <li id="mobile-dropdown-li"><a href="#">Lorem Ipsum</a></li>
+            </ul>
+        </div>
     </div>
 
+    #mobile-dropdown-li a {
+  text-decoration: none;
+  color: #2d2f31;
+  height: auto;
+  padding: 10px;
+}
 
+#mobile-dropdown-menu{
+  width: 100%;
+  overflow: hidden;
+}
+
+#mobile-dropdown-container{
+  display: none;
+} 
+
+@media screen and (max-width: 767px) {
+  #mobile-dropdown-container{
+    display: block;
+  }
+}
+
+#mobile-dropdown-label{
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+}
+
+#mobile-dropdown-label span {
+  padding : 30px;
+  background : #6667AB; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#mobile-dropdown-label span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+#mobile-dropdown-ul {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: max-height .4s ease;
+}
+
+#mobile-dropdown-ul li {
+  padding: 10px;
+}
+
+#touch, #touch1, #touch2 {
+  position: relative;
+  opacity: 0;
+  height: 0px;
+  display: none;
+}
+
+#touch:checked + .slide, #touch1:checked + .slide1, #touch2:checked + .slide2 {
+  height: auto;
+  max-height: 100%
+}
+
+    <-- End Mobile dropdown menu-->
     <!-- Start Tabs 
     ============================================= -->
     <div class="tabs-content-area default-padding-top">
@@ -249,81 +340,171 @@
                                 <a href="" id="service-heading" data-target="#tab1" data-toggle="tab"
                                     class="nav-link">Product
                                     Marketing</a>
+                                <div id="service-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab2" data-toggle="tab"
                                     class="nav-link">NPP</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab3" data-toggle="tab"
                                     class="nav-link">VBP</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab4" data-toggle="tab"
                                     class="nav-link">Collateral</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab5" data-toggle="tab"
                                     class="nav-link">ABM</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-heading" data-target="#tab6" data-toggle="tab"
                                     class="nav-link">Digital Marketing</a>
+                                <div id="service-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab7" data-toggle="tab"
                                     class="nav-link">Social Media
                                     Management</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab8" data-toggle="tab"
                                     class="nav-link">PPC</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab9" data-toggle="tab"
                                     class="nav-link">Organic/ SEO</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab10" data-toggle="tab"
                                     class="nav-link">Web Engagement</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab11" data-toggle="tab"
                                     class="nav-link">Email and Whatsapp
                                     engagement</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab12" data-toggle="tab"
                                     class="nav-link">Web Analytics</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab12" data-toggle="tab"
                                     class="nav-link">Customer Journey
                                     Mapping</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-heading" data-target="#tab13" data-toggle="tab"
                                     class="nav-link">E-Commerce</a>
+                                <div id="service-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab13" data-toggle="tab"
                                     class="nav-link">Promotions and
                                     Sale</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab13" data-toggle="tab"
                                     class="nav-link">E-Commerce
                                     Listing</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab13" data-toggle="tab"
                                     class="nav-link">E-Commerce
                                     Logistics</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a href="" id="service-subheading" data-target="#tab13" data-toggle="tab"
                                     class="nav-link">E-Commerce Customer
                                     Service</a>
+                                <div id="service-subheading-description" class="mobile-content" data-wow-delay="0.5s">
+                                    <p>product marketing
+                                    </p>
+                                    <a class="btn-simple" href="#"><i class="fas fa-angle-right"></i> Read More</a>
+                                </div>
                             </li>
                         </ul>
                     </div>
