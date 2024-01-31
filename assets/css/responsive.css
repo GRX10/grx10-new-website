@@ -462,7 +462,8 @@
     margin-bottom: 20px;
   }
 
-  .breadcrumb-area h1 {
+  .breadcrumb-area h1 { 
+    padding-top: 50px;
     font-size: 36px;
   }
 
