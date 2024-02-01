@@ -6364,6 +6364,10 @@ footer .footer-bottom .text-right li {
   color: white;
 }
 
+#serviceinnerblock h4{
+  font-size: 27px;
+}
+
 #serviceinnerblock:hover h4,
 #serviceinnerblock:hover p {
   color: #e021ba;
@@ -6462,6 +6466,7 @@ footer .footer-bottom .text-right li {
 
   .mobile-services-dropdown {
     display: flex;
+    background-color: #ccddff;
   }
 
   .tabs-content-area {
@@ -6549,6 +6554,18 @@ footer .footer-bottom .text-right li {
   border-width: 2px;
   margin-left: 10%;
   margin-right: 10%;
+  background-color: white;
+}
+
+#service-dropdown-heading.active{
+  background-color: white;
+  color: black;
+  border: 2px solid #6667AB;
+}
+
+#service-dropdown-subheading.active{
+  background-color: #E021Ba;
+  color: white;
 }
 
 #service-dropdown-heading.active+#service-dropdown-content {
@@ -6556,6 +6573,7 @@ footer .footer-bottom .text-right li {
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
+
 
 #service-dropdown-subheading.active+#service-dropdown-content {
   display: block;
