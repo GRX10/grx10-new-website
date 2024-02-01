@@ -976,10 +976,10 @@ a.btn-simple.md.light:hover {
 }
 
 .btn-simple:after {
-  background: linear-gradient(90deg, rgba(65, 84, 241, 1) 0%, rgba(14, 32, 173, 1) 75%);
+  background: linear-gradient(90deg, #e34fc6 0%, #e021ba 75%);
   color: #ffffff;
   border-color: transparent;
-  position: absolute;
+position: absolute; 
   left: -100%;
   top: 0;
   content: "";
@@ -1175,7 +1175,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  background-color: #4154f1;
+  background-color: #E021Ba;
   width: 90px;
   overflow: hidden;
 }
@@ -6711,11 +6711,21 @@ footer .footer-bottom .text-right li {
 
 #nav-link{
   padding-bottom: 10px;
-  text-underline-offset: 5px;
+  text-underline-offset: 3px;
 }
 
 #nav-link:hover {
   text-decoration: underline;
   text-decoration-color: #E021Ba;
   -webkit-transition:none;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
+
+#nav-link::after{
+  border-radius: 10px;
+}
+
+#serviceinnerblock p{
+  color: #E021Ba;
 }
