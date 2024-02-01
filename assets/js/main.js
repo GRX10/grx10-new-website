@@ -425,7 +425,7 @@
 
         //for side nav
 
-        $("#sidenav").on("click", function () {
+        $(".sidenav").on("click", function () {
              if($(".side").css("width")=="100px"){
                 $(".side").css("width","600px");
                 $(".side").css("display","block");

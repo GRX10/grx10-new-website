@@ -6709,7 +6709,13 @@ footer .footer-bottom .text-right li {
   }
 }
 
-a:hover {
+#nav-link{
+  padding-bottom: 10px;
+  text-underline-offset: 5px;
+}
+
+#nav-link:hover {
   text-decoration: underline;
   text-decoration-color: #E021Ba;
+  -webkit-transition:none;
 }
