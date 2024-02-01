@@ -6708,3 +6708,8 @@ footer .footer-bottom .text-right li {
     display: none;
   }
 }
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #E021Ba;
+}
