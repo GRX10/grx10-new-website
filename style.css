@@ -979,7 +979,7 @@ a.btn-simple.md.light:hover {
   background: linear-gradient(90deg, #e34fc6 0%, #e021ba 75%);
   color: #ffffff;
   border-color: transparent;
-position: absolute; 
+  position: absolute;
   left: -100%;
   top: 0;
   content: "";
@@ -6364,7 +6364,7 @@ footer .footer-bottom .text-right li {
   color: white;
 }
 
-#serviceinnerblock h4{
+#serviceinnerblock h4 {
   font-size: 27px;
 }
 
@@ -6557,13 +6557,13 @@ footer .footer-bottom .text-right li {
   background-color: white;
 }
 
-#service-dropdown-heading.active{
+#service-dropdown-heading.active {
   background-color: white;
   color: black;
   border: 2px solid #6667AB;
 }
 
-#service-dropdown-subheading.active{
+#service-dropdown-subheading.active {
   background-color: #E021Ba;
   color: white;
 }
@@ -6671,7 +6671,7 @@ footer .footer-bottom .text-right li {
     margin: 30px 00px 30px 0px;
   }
 
-  .service-card .text{
+  .service-card .text {
     margin: 30px 0px 30px 00px;
 
   }
@@ -6709,7 +6709,7 @@ footer .footer-bottom .text-right li {
   }
 }
 
-#nav-link{
+#nav-link {
   padding-bottom: 10px;
   text-underline-offset: 3px;
 }
@@ -6717,15 +6717,55 @@ footer .footer-bottom .text-right li {
 #nav-link:hover {
   text-decoration: underline;
   text-decoration-color: #E021Ba;
-  -webkit-transition:none;
+  -webkit-transition: none;
   text-decoration-thickness: 3px;
   text-underline-offset: 3px;
 }
 
-#nav-link::after{
+#nav-link::after {
   border-radius: 10px;
 }
 
-#serviceinnerblock p{
-  color: #E021Ba;
+#serviceinnerblock h4 {
+  color: white;
+  margin-bottom: 0px;
+}
+
+#serviceinnerblock p {
+  color: white;
+}
+
+
+#serviceinnerblock #cardicon {
+  display: block;
+}
+
+#serviceinnerblock #cardhovericon {
+  display: none;
+}
+
+#serviceinnerblock:hover #cardhovericon {
+  display: block;
+}
+
+#serviceinnerblock:hover #cardicon {
+  display: none;
+}
+
+#contact-container {
+  background-color: #6667AB;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.no-background > .container > #navbar-menu > .nav > li > #contact-container {
+  background-color: #e021ba;
+  color: white;
+}
+
+#nav-link.sidenav {
+  margin: 0px;
+  padding: 0px;
 }
