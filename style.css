@@ -6761,7 +6761,7 @@ footer .footer-bottom .text-right li {
   cursor: pointer;
 }
 
-.no-background > .container > #navbar-menu > .nav > li > #contact-container {
+.no-background>.container>#navbar-menu>.nav>li>#contact-container {
   background-color: #e021ba;
   color: white;
 }
@@ -6771,17 +6771,25 @@ footer .footer-bottom .text-right li {
   padding: 0px;
 }
 
-.blog img{
+.blog img {
   width: 100px;
   height: 300px;
   max-height: 300px;
   object-fit: none;
 }
 
-#impact-text{
+#impact-text {
   width: 100%;
   padding: 20px 0px 20px 0px;
   border-radius: 10px;
   background-color: #6667AB;
   color: white;
+}
+
+#aboutuslogotext {
+  padding: 10px;
+  background-color: white;
+  color: #6667AB;
+  margin-top: 100px;
+  border-radius: 10px;
 }
