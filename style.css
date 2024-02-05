@@ -6331,9 +6331,8 @@ footer .footer-bottom .text-right li {
 }
 
 .mySlides h1 {
-  font-size: 7vh;
+  font-size: 6vh;
   color: #E021Ba;
-  font-weight: bold;
 }
 
 .hero-text {
@@ -6792,4 +6791,16 @@ footer .footer-bottom .text-right li {
   color: #6667AB;
   margin-top: 100px;
   border-radius: 10px;
+}
+
+#banner-area-home{
+  background-image: url(assets/img/shape/bg-5.png);
+}
+
+#aboutusheroimg{
+  background-color: white;
+  color: #6667AB;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cccccc;
 }
