@@ -6808,7 +6808,7 @@ footer .footer-bottom .text-right li {
 .profile {
   display: grid;
   grid-template-columns: 1fr;
-  width: 300px;
+  width: 320px;
   height: 400px;
 }
 
