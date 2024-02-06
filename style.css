@@ -6664,7 +6664,6 @@ footer .footer-bottom .text-right li {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 70%;
     height: 100%;
     padding-left: 20px;
     margin: 30px 00px 30px 0px;
@@ -6691,6 +6690,7 @@ footer .footer-bottom .text-right li {
 
   .service-card .text p,
   .service-card .text-left p {
+    display: none;
     font-size: 14px;
     font-weight: 400;
     color: #000;
@@ -6879,4 +6879,10 @@ footer .footer-bottom .text-right li {
 #points ul li::after{
   content: none;
   display: none;
+}
+
+#nested-list::after{
+  content: '*';
+  padding: 0%;
+  background-color: white;
 }

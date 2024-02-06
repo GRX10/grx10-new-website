@@ -417,36 +417,6 @@
             });
         });
 
-        //for side nav
-
-        $(".sidenav").on("click", function () {
-             if($(".side").css("width")=="100px"){
-                $(".side").css("width","600px");
-                $(".side").css("display","block");
-             }
-            else{
-                $(".side").css("width","100px");
-                $(".side").css("display","none");
-            }
-        });
-
-        $("#contact-container").on("click", function () {
-            if($(".side").css("width")=="100px"){
-               $(".side").css("width","600px");
-               $(".side").css("display","block");
-            }
-           else{
-               $(".side").css("width","100px");
-               $(".side").css("display","none");
-           }
-       });
-        
-
-        $(".close-button").on("click", function () {
-            $(".side").css("width","0px");
-            $(".side").css("display","none");
-        });
-
         //for mobile services container in index.html
 
         $(".service-dropdown-heading").on("click", function (event) {
