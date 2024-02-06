@@ -976,7 +976,7 @@ a.btn-simple.md.light:hover {
 }
 
 .btn-simple:after {
-  background: linear-gradient(90deg, #e34fc6 0%, #e021ba 75%);
+  background: linear-gradient(90deg, #e34fc6 0%, #e0218a 75%);
   color: #ffffff;
   border-color: transparent;
   position: absolute;
@@ -1175,7 +1175,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  background-color: #E021Ba;
+  background-color: #e0218a;
   width: 90px;
   overflow: hidden;
 }
@@ -3652,7 +3652,7 @@ body,
 }
 
 .center-tabs .nav-tabs li a.active {
-  background: #E021Ba;
+  background: #e0218a;
   color: #ffffff;
 }
 
@@ -6332,7 +6332,7 @@ footer .footer-bottom .text-right li {
 
 .mySlides h1 {
   font-size: 6vh;
-  color: #E021Ba;
+  color: #e0218a;
 }
 
 .hero-text {
@@ -6369,7 +6369,7 @@ footer .footer-bottom .text-right li {
 
 #serviceinnerblock:hover h4,
 #serviceinnerblock:hover p {
-  color: #e021ba;
+  color: #e0218a;
 }
 
 .about-us {
@@ -6563,7 +6563,7 @@ footer .footer-bottom .text-right li {
 }
 
 #service-dropdown-subheading.active {
-  background-color: #E021Ba;
+  background-color: #e0218a;
   color: white;
 }
 
@@ -6715,7 +6715,7 @@ footer .footer-bottom .text-right li {
 
 #nav-link:hover {
   text-decoration: underline;
-  text-decoration-color: #E021Ba;
+  text-decoration-color: #e0218a;
   -webkit-transition: none;
   text-decoration-thickness: 3px;
   text-underline-offset: 3px;
@@ -6761,7 +6761,7 @@ footer .footer-bottom .text-right li {
 }
 
 .no-background>.container>#navbar-menu>.nav>li>#contact-container {
-  background-color: #e021ba;
+  background-color: #e0218a;
   color: white;
 }
 
