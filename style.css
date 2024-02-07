@@ -6807,8 +6807,19 @@ footer .footer-bottom .text-right li {
 }
 
 #banner-area-home {
+  background-color: white;
   background-image: url(assets/img/shape/bg-5.png);
 }
+
+@media (max-width: 800px) {
+  #banner-area-home {
+    background-image: url(assets/img/shape/bg-5-mobile.png);
+    object-fit: contain;
+    height: 100vh;
+  }
+}
+
+
 
 #aboutusheroimg {
   background-color: white;
