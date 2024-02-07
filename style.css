@@ -6813,13 +6813,24 @@ footer .footer-bottom .text-right li {
 
 @media (max-width: 800px) {
   #banner-area-home {
-    background-image: url(assets/img/shape/bg-5-mobile.png);
-    object-fit: contain;
+    display: block;
     height: 100vh;
+    background-image: none;
+  }
+
+  #banner-area-home .container{
+    margin: 0px;
+    margin-top: 70px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/img/shape/bg-5-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    overflow-y: visible;
   }
 }
-
-
 
 #aboutusheroimg {
   background-color: white;
