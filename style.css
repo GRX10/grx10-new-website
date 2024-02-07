@@ -6638,6 +6638,13 @@ footer .footer-bottom .text-right li {
   width: 200px;
 }
 
+#profilescontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
+
 @media (max-width: 1024px) {
 
   .services-list {
@@ -6706,6 +6713,12 @@ footer .footer-bottom .text-right li {
   .service-card .button {
     display: none;
   }
+
+  #profilescontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
 
 #nav-link {
@@ -6793,11 +6806,11 @@ footer .footer-bottom .text-right li {
   border-radius: 10px;
 }
 
-#banner-area-home{
+#banner-area-home {
   background-image: url(assets/img/shape/bg-5.png);
 }
 
-#aboutusheroimg{
+#aboutusheroimg {
   background-color: white;
   color: #6667AB;
   padding: 20px;
@@ -6858,13 +6871,13 @@ footer .footer-bottom .text-right li {
   padding: 0px;
 }
 
-#points ul{
+#points ul {
   list-style: square;
   padding: 0px;
   margin: 0px;
 }
 
-#points ul li{
+#points ul li {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -6872,16 +6885,16 @@ footer .footer-bottom .text-right li {
   width: auto;
 }
 
-#points ul li::marker{
+#points ul li::marker {
   color: black;
 }
 
-#points ul li::after{
+#points ul li::after {
   content: none;
   display: none;
 }
 
-#nested-list::after{
+#nested-list::after {
   content: '*';
   padding: 0%;
   background-color: white;
