@@ -6820,15 +6820,16 @@ footer .footer-bottom .text-right li {
 
   #banner-area-home .container{
     margin: 0px;
+    padding: 0px;
     margin-top: 70px;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-image: url(assets/img/shape/bg-5-mobile.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: contain;
-    overflow-y: visible;
+    object-fit: fill;
+    background-color: #6667AB;
   }
 }
 
