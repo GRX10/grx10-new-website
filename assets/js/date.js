@@ -10,26 +10,40 @@ $(document).on('ready', function () {
 //for side nav
 $(document).on('ready', function () {
 
+    if($(window).width() < 1024){
+        $("#contact-container > #nav-link").attr('href','https://share.hsforms.com/1gkFtNzjGTiazX19liGrYUgqr4pd');
+        $("#contact-container > #nav-link").attr('target','_blank');
+
+    }
+
     $(".sidenav").on("click", function () {
-        if ($(".side").css("width") == "100px") {
-            $(".side").css("width", "600px");
-            $(".side").css("display", "block");
+
+        if($(window).width() >= 1024){
+            if ($(".side").css("width") == "100px") {
+                $(".side").css("width", "600px");
+                $(".side").css("display", "block");
+            }
+            else {
+                $(".side").css("width", "100px");
+                $(".side").css("display", "none");
+            }
         }
-        else {
-            $(".side").css("width", "100px");
-            $(".side").css("display", "none");
-        }
+        
     });
 
     $("#contact-container").on("click", function () {
-        if ($(".side").css("width") == "100px") {
-            $(".side").css("width", "600px");
-            $(".side").css("display", "block");
+
+        if($(window).width() >= 1024){
+            if ($(".side").css("width") == "100px") {
+                $(".side").css("width", "600px");
+                $(".side").css("display", "block");
+            }
+            else {
+                $(".side").css("width", "100px");
+                $(".side").css("display", "none");
+            }
         }
-        else {
-            $(".side").css("width", "100px");
-            $(".side").css("display", "none");
-        }
+
     });
 
 

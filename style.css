@@ -6604,7 +6604,7 @@ footer .footer-bottom .text-right li {
   width: 400px;
   height: 400px;
   border-radius: 10px;
-  border: 1px solid rgb(147, 143, 143);
+  border: 5px solid #6667AB;
 }
 
 .service-card .text {
@@ -6780,6 +6780,7 @@ footer .footer-bottom .text-right li {
 #nav-link.sidenav {
   margin: 0px;
   padding: 0px;
+  color: white;
 }
 
 .blog img {
@@ -6920,4 +6921,24 @@ footer .footer-bottom .text-right li {
   content: '*';
   padding: 0%;
   background-color: white;
+}
+
+#subservices{
+  display: none;
+}
+
+
+@media (max-width:1023px) {
+  #servicesdropdown{
+    display: none;
+  }
+
+  #subservices{
+    display: block;
+  }
+
+  #contact-container > #nav-link{
+    
+  }
+
 }
