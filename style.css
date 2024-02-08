@@ -6806,9 +6806,9 @@ footer .footer-bottom .text-right li {
   border-radius: 10px;
 }
 
-#banner-area-home {
-  background-image: url(assets/img/shape/bg-5.png);
-}
+/* #banner-area-home {
+  background-image: url(assets/img/bg-6.png);
+} */
 
 #aboutusheroimg {
   background-color: white;
@@ -6898,4 +6898,50 @@ footer .footer-bottom .text-right li {
   content: '*';
   padding: 0%;
   background-color: white;
+}
+
+/* Manikandan Classes */
+
+#banner-area-home {
+  background-image: url(assets/img/bg-6.png);
+  background-size: cover;
+    background-position: bottom;
+}
+
+.home-banner{
+  /* padding: 8rem 0 0; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-image: url(assets/img/bg-6.png); */
+    
+}
+.home-banner-text h1{
+  color: #fff;
+  font-size: 3.9vw;
+}
+.home-banner-text .col-md-8 {
+  display: flex;
+  align-items: center;
+  padding-top: 13rem;
+}
+.pink-text-bg{
+  background: #e0218a;
+}
+@media (max-width: 767px) {
+  
+  .home-banner-text h1{
+    font-size: 8vw;
+    line-height: 1.4;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .home-banner-text .col-md-8 {
+    padding-top: 8rem;
+  }
+  
 }
