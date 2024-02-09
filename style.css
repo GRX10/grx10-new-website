@@ -7016,6 +7016,14 @@ footer .footer-bottom .text-right li {
   margin-left: 10%;
 }
 
+#mobileimage{
+  display: none;
+}
+
+#desktopimage{
+  display: block;
+}
+
 @media (max-width: 1023px) {
   .mobileservicescards {
     display: flex;
@@ -7032,6 +7040,14 @@ footer .footer-bottom .text-right li {
 
   .breadcrumb-area .col{
     margin-left: 5%;
+  }
+
+  #mobileimage{
+    display: block;
+  }
+
+  #desktopimage{
+    display: none;
   }
 
 }
