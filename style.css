@@ -6818,7 +6818,7 @@ footer .footer-bottom .text-right li {
     background-image: none;
   }
 
-  #banner-area-home .container{
+  #banner-area-home .container {
     margin: 0px;
     padding: 0px;
     margin-top: 70px;
@@ -6923,22 +6923,101 @@ footer .footer-bottom .text-right li {
   background-color: white;
 }
 
-#subservices{
+#subservices {
   display: none;
 }
 
 
 @media (max-width:1023px) {
-  #servicesdropdown{
+  #servicesdropdown {
     display: none;
   }
 
-  #subservices{
+  #subservices {
     display: block;
   }
 
-  #contact-container > #nav-link{
-    
+
+}
+
+.mobileservicescards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  min-height: 350px;
+  height: auto;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileservicescard {
+  max-width: 400px;
+}
+
+.mobileservicescardpic {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.mobileservicescardpic img {
+  width: 150px;
+  height: 150px;
+  border: 3px #6667AB solid;
+  border-radius: 20px;
+  background-color: white;
+  object-fit: cover;
+}
+
+.mobileservicescardcontent {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px grey solid;
+  border-radius: 10px;
+}
+
+.mobileservicescardcontent h3 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.mobileservicescardcontent p {
+  padding: 20px;
+  text-align: center;
+  padding-top: 0px;
+  margin: 0px;
+  line-height: 25px;
+}
+
+.mobileservicescardcontent button {
+  width: 50px;
+  height: 30px;
+  background-color: #6667AB;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.mobileservicescards{
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .mobileservicescards{
+    display: flex;
+  }     
+
+  .services-list{
+    display: none;
   }
 
 }
