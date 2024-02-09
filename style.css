@@ -6824,7 +6824,7 @@ footer .footer-bottom .text-right li {
     margin-top: 70px;
     height: 100vh;
     width: 100vw;
-    background-image: url(assets/img/shape/bg-5-mobile.png);
+    background-image: url(assets/img/illustration/mobilebanner\ 1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -6927,6 +6927,10 @@ footer .footer-bottom .text-right li {
   display: none;
 }
 
+#product-marketing-image{
+  src: url("assets/img/illustration/product impact.png");
+}
+
 
 @media (max-width:1023px) {
   #servicesdropdown {
@@ -6937,6 +6941,9 @@ footer .footer-bottom .text-right li {
     display: block;
   }
 
+  #product-marketing-image{
+    src: url("assets/img/illustration/pm\ impact\ mobile\ 1.png");
+  }
 
 }
 
