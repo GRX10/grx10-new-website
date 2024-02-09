@@ -7007,17 +7007,31 @@ footer .footer-bottom .text-right li {
   border-radius: 15px;
 }
 
-.mobileservicescards{
+.mobileservicescards {
   display: none;
+  margin-bottom: 30px;
+}
+
+.breadcrumb-area .col{
+  margin-left: 10%;
 }
 
 @media (max-width: 1023px) {
-  .mobileservicescards{
+  .mobileservicescards {
     display: flex;
-  }     
+  }
 
-  .services-list{
+  .services-list {
     display: none;
+  }
+
+  .breadcrumb-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .breadcrumb-area .col{
+    margin-left: 5%;
   }
 
 }
