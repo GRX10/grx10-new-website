@@ -7076,3 +7076,11 @@ footer .footer-bottom .text-right li {
   }
 
 }
+
+li > .active {
+  text-decoration: underline;
+  text-decoration-color: #e0218a;
+  -webkit-transition: none;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
