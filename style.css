@@ -7051,3 +7051,11 @@ footer .footer-bottom .text-right li {
   }
 
 }
+
+
+/* New Class */
+
+.case-study .card-img{
+  width: 280px;
+  height: auto;
+}
