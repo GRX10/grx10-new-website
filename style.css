@@ -6713,7 +6713,7 @@ footer .footer-bottom .text-right li {
 }
 
 #contact-container {
-  background-color: #6667AB;
+  background-color: #e0218a;
   color: white;
   margin-top: 20px;
   padding: 10px;
@@ -7075,6 +7075,9 @@ li > .info a:hover{
 @media screen and (max-width: 1023px) {
   
   .navbar-brand{
+    box-shadow: none;
+  }
+  .no-background > .container > .navbar-header > .navbar-brand {
     box-shadow: none;
   }
 }
