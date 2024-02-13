@@ -6354,23 +6354,32 @@ footer .footer-bottom .text-right li {
   border-radius: 5px;
 }
 
-#serviceinnerblock:hover {
-  background-color: white;
-  color: black;
-}
-
 #serviceinnerblock h4,
 #serviceinnerblock p {
   color: white;
 }
 
-#serviceinnerblock h4 {
-  font-size: 27px;
+#hovercardtext p{
+  opacity: 0;
+  transition: ease-in 0.5s;
 }
 
-#serviceinnerblock:hover h4,
-#serviceinnerblock:hover p {
-  color: #e0218a;
+#serviceinnerblock:hover > #hovercardtext p{
+  opacity: 1;
+}
+
+#serviceinnerblock #imgcontainer img{
+  transform: scale(1);
+  transition: ease-out 0.5s;
+}
+
+#serviceinnerblock:hover #imgcontainer img{
+  transform: scale(1.1);
+  transition: ease-in 0.5s;
+}
+
+#serviceinnerblock h4 {
+  font-size: 27px;
 }
 
 .about-us {
@@ -6748,28 +6757,11 @@ footer .footer-bottom .text-right li {
   color: white;
 }
 
-
-#serviceinnerblock #cardicon {
-  display: block;
-}
-
-#serviceinnerblock #cardhovericon {
-  display: none;
-}
-
-#serviceinnerblock:hover #cardhovericon {
-  display: block;
-}
-
-#serviceinnerblock:hover #cardicon {
-  display: none;
-}
-
 #contact-container {
   background-color: #6667AB;
   color: white;
   margin-top: 20px;
-  padding: 10px 15px;
+  padding: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
