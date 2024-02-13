@@ -89,7 +89,6 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
-  font-weight: 400;
   line-height: 30px;
   overflow-x: hidden;
   background-color: #ffffff;
@@ -158,7 +157,6 @@ p {
   color: #666666;
   margin: 0 0 15px;
   text-transform: none;
-  font-weight: 400;
 }
 
 hr {
@@ -220,7 +218,7 @@ a {
 
 b,
 strong {
-  font-weight: 900;
+  
 }
 
 .btn.active,
@@ -547,8 +545,7 @@ input {
 
 .btn {
   display: inline-block;
-  font-family: ''Open Sans'', sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
   line-height: 25px;
   text-transform: capitalize;
   -webkit-transition: all 0.35s ease-in-out;
@@ -588,7 +585,7 @@ input {
 
 .btn.btn-sm-pro {
   font-size: 10px;
-  font-weight: 600;
+  
   margin-top: 5px;
   padding: 4px 35px;
   display: inline-block;
@@ -668,7 +665,7 @@ input {
   padding: 10px 30px;
   text-transform: capitalize;
   border-radius: 5px;
-  font-weight: 800;
+  
 }
 
 .btn-standard.md {
@@ -962,7 +959,7 @@ input {
   padding: 10px 40px;
   border-radius: 5px;
   color: #6667AB;
-  font-weight: 700;
+  
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -1136,7 +1133,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 
 .site-heading h5 {
   text-transform: uppercase;
-  font-weight: 800;
+  
   color: #6667AB;
   font-size: 18px;
   position: relative;
@@ -1162,7 +1159,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 
 .site-heading h2 {
   display: block;
-  font-weight: 700;
+  
   position: relative;
   margin-bottom: 0;
   line-height: 1.4;
@@ -1234,7 +1231,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   background: transparent;
   border: none;
   color: #666666;
-  font-weight: 500;
+  ;
   font-size: 14px;
   letter-spacing: 1px;
   padding: 15px;
@@ -1280,7 +1277,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   padding: 7px 15px;
   text-transform: capitalize;
   display: block;
-  font-weight: 600;
+  
 }
 
 .top-bar-area li {
@@ -1330,7 +1327,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 }
 
 .breadcrumb-area h1 {
-  font-weight: 700;
+  
   color: #ffffff;
   margin: 0;
   text-transform: capitalize;
@@ -1356,7 +1353,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 
 .page-title-area h1 {
   display: block;
-  font-weight: 600;
+  
   text-transform: uppercase;
   font-size: 40px;
   margin-top: -10px;
@@ -1366,7 +1363,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 .breadcrumb-area .breadcrumb li::after {
   content: "";
   font-family: 'themify';
-  font-weight: 600;
+  
   color: #ffffff;
   position: absolute;
   right: -13px;
@@ -1395,7 +1392,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 
 .breadcrumb-area .breadcrumb a,
 .breadcrumb-area .breadcrumb li {
-  font-weight: 800;
+  
   text-transform: uppercase;
   font-size: 14px;
   display: inline-block;
@@ -1954,7 +1951,7 @@ body,
 
 .banner-area h2 {
   font-size: 50px;
-  font-weight: 900;
+  
   margin-bottom: 20px;
 }
 
@@ -1979,7 +1976,7 @@ body,
   color: #6667AB;
   margin-bottom: 26px;
   text-transform: uppercase;
-  font-weight: 700;
+  
 }
 
 .banner-area.text-light h4 {
@@ -1991,13 +1988,13 @@ body,
 }
 
 .banner-area.heading-capitalized h2 {
-  font-weight: 200;
+  
   text-transform: capitalize;
   font-size: 60px;
 }
 
 .banner-area.heading-capitalized h2 strong {
-  font-weight: 700;
+  
   display: block;
 }
 
@@ -2492,7 +2489,7 @@ body,
 
 .nice-select .option {
   cursor: pointer;
-  font-weight: 400;
+  
   line-height: 40px;
   list-style: none;
   min-height: 40px;
@@ -2580,7 +2577,7 @@ body,
 }
 
 .features-area .item h4 {
-  font-weight: 800;
+  
   font-size: 20px;
 }
 
@@ -2590,7 +2587,7 @@ body,
 
 /* About info */
 .about-info h2 {
-  font-weight: 200;
+  
   margin-bottom: 25px;
   margin-top: -5px;
   text-transform: capitalize;
@@ -2617,7 +2614,7 @@ body,
   color: #232323;
   font-size: 40px;
   margin-bottom: 10px;
-  font-weight: 700;
+  
   display: inline-block;
   position: relative;
   z-index: 1;
@@ -2698,7 +2695,7 @@ body,
 
 .about-features-area .process-box .item h4 {
   text-transform: capitalize;
-  font-weight: 800;
+  
   font-size: 22px;
 }
 
@@ -2710,7 +2707,7 @@ body,
   margin-top: 30px;
   padding-top: 30px;
   text-transform: capitalize;
-  font-weight: 600;
+  
   line-height: 1.4;
 }
 
@@ -2718,7 +2715,7 @@ body,
   width: 100%;
   background: linear-gradient(90deg, rgba(65, 84, 241, 1) 0%, rgba(14, 32, 173, 1) 75%);
   color: #ffffff;
-  font-weight: 800;
+  
   text-transform: uppercase;
   padding: 7px;
   border-radius: 5px;
@@ -2766,7 +2763,7 @@ body,
 
 .about-area .info h5 {
   text-transform: uppercase;
-  font-weight: 800;
+  
   color: #6667AB;
 }
 
@@ -2783,7 +2780,7 @@ body,
 }
 
 .about-area .info h2 {
-  font-weight: 200;
+  
   margin-bottom: 25px;
   text-transform: capitalize;
 }
@@ -2846,7 +2843,7 @@ body,
   alignment-baseline: central;
   text-anchor: middle;
   font-size: 8px;
-  font-weight: 800;
+  
 }
 
 .circle-chart__subline {
@@ -2895,7 +2892,7 @@ body,
   text-transform: capitalize;
   color: #232323 !important;
   font-size: 16px;
-  font-weight: 600;
+  
 }
 
 .progress-items .progress-box .progress {
@@ -3004,7 +3001,7 @@ body,
 .choose-us-area ul li h5 {
   margin-bottom: 7px;
   font-size: 18px;
-  font-weight: 700;
+  
 }
 
 .choose-us-area ul li {
@@ -3031,7 +3028,7 @@ body,
   line-height: 40px;
   text-align: center;
   font-size: 10px;
-  font-weight: 600;
+  
   clip-path: polygon(100% 0, 100% 77%, 77% 100%, 0 100%, 0 0);
 }
 
@@ -3050,7 +3047,7 @@ body,
 
 .choose-us-area h2 {
   margin-bottom: 30px;
-  font-weight: 600;
+  
 }
 
 .choose-us-area h2 strong {
@@ -3189,7 +3186,7 @@ body,
 }
 
 .services-area .services-items .item h4 {
-  font-weight: 700;
+  
   text-transform: capitalize;
   font-size: 20px;
 }
@@ -3394,7 +3391,7 @@ body,
 }
 
 .process-items h2 {
-  font-weight: 200;
+  
   line-height: 1.3;
   margin-top: -5px;
 }
@@ -3421,7 +3418,7 @@ body,
 .process-items .content h4 {
   font-size: 20px;
   text-transform: capitalize;
-  font-weight: 700;
+  
 }
 
 .process-items .content .item p {
@@ -3554,7 +3551,7 @@ body,
 
 .our-process-area .process-box .item h4 {
   text-transform: capitalize;
-  font-weight: 800;
+  
   font-size: 22px;
 }
 
@@ -3643,7 +3640,7 @@ body,
   position: relative;
   z-index: 1;
   background: #f7f7f7;
-  font-weight: 700;
+  
   border: 1px solid #e7e7e7;
 }
 
@@ -3675,7 +3672,7 @@ body,
 
 .center-tabs .info h2,
 .center-tabs .info h3 {
-  font-weight: 700;
+  
   margin-bottom: 20px;
   line-height: 1.3;
 }
@@ -3684,7 +3681,7 @@ body,
   text-transform: uppercase;
   margin-bottom: 25px;
   color: #6667AB;
-  font-weight: 800;
+  
   font-size: 18px;
 }
 
@@ -3710,7 +3707,7 @@ body,
 }
 
 .faq-items .faq-content h2 {
-  font-weight: 200;
+  
   margin-bottom: 30px;
   line-height: 1.3;
   margin-top: -5px;
@@ -3732,12 +3729,12 @@ body,
   position: absolute;
   right: 30px;
   top: 30px;
-  font-weight: 600;
+  
 }
 
 .accordion .card-header h4.collapsed:after {
   content: "\f070";
-  font-weight: 600;
+  
 }
 
 .faq-area .faq-content .card {
@@ -3761,7 +3758,7 @@ body,
 .faq-area .faq-content .card .card-header h4 {
   margin: 0;
   font-size: 18px;
-  font-weight: 600;
+  
   padding: 30px;
   padding-right: 50px;
   cursor: pointer;
@@ -3813,7 +3810,7 @@ body,
 }
 
 .clients-area .info h2 {
-  font-weight: 600;
+  
   line-height: 1.4;
   margin-bottom: 0;
   margin-top: -5px;
@@ -3866,7 +3863,7 @@ body,
 
 .benifits-area .info>h5 {
   color: #6667AB;
-  font-weight: 800;
+  
   text-transform: uppercase;
 }
 
@@ -3883,7 +3880,7 @@ body,
 }
 
 .benifits-area .info h2 {
-  font-weight: 200;
+  
   margin-bottom: 25px;
 }
 
@@ -3910,7 +3907,7 @@ body,
 }
 
 .benifits-area .info ul li h5 {
-  font-weight: 700;
+  
   font-size: 16px;
   margin: 0;
 }
@@ -3963,7 +3960,7 @@ body,
 .fun-factor-area .item .timer {
   display: block;
   font-size: 45px;
-  font-weight: 800;
+  
   line-height: 1;
   margin-top: -5px;
   margin-bottom: 10px;
@@ -3997,7 +3994,7 @@ body,
 
 .fun-factor-area .item .medium {
   display: block;
-  font-weight: 800;
+  
   font-size: 16px;
   margin-bottom: -5px;
   color: #232323;
@@ -4045,13 +4042,13 @@ body,
 }
 
 .case-items .info .cats {
-  font-weight: 700;
+  
   margin-bottom: 5px;
 }
 
 .case-items .info .cats p {
   margin: 0;
-  font-weight: 700;
+  
   color: #6667AB;
   font-size: 14px;
   position: relative;
@@ -4187,7 +4184,7 @@ body,
 .team-area i.fas.fa-envelope {
   position: relative;
   top: 2px;
-  font-weight: 500;
+  ;
 }
 
 .team-area .info {
@@ -4195,7 +4192,7 @@ body,
 }
 
 .team-area .info h4 {
-  font-weight: 700;
+  
   margin: 0;
   font-size: 20px;
 }
@@ -4231,15 +4228,6 @@ body,
   border-radius: 5px;
 }
 
-i.fas.fa-envelope-open {
-  font-weight: 500;
-}
-
-.team-area .info .contact a {
-  font-weight: 300;
-}
-
-.team-carousel.owl-carousel .owl-dots {}
 
 .team-carousel.owl-carousel .owl-dots .owl-dot {
   margin-bottom: -10px;
@@ -4416,7 +4404,7 @@ i.fas.fa-envelope-open {
 }
 
 .pricing-area .pricing-item .price h2 {
-  font-weight: 700;
+  
   font-size: 50px;
   margin-bottom: 0;
 }
@@ -4424,17 +4412,17 @@ i.fas.fa-envelope-open {
 .pricing-area .pricing-item .price h2 sup {
   font-size: 24px;
   top: -20px;
-  font-weight: 500;
+  ;
 }
 
 .pricing-area .pricing-item .price h2 sub {
   font-size: 14px;
-  font-weight: 500;
+  ;
 }
 
 .pricing-area .pricing-item li.pricing-header h4 {
   text-transform: capitalize;
-  font-weight: 800;
+  
   margin-bottom: 5px;
   font-size: 20px;
   color: #666666;
@@ -4535,7 +4523,7 @@ i.fas.fa-envelope-open {
 }
 
 .subscribe-area h2 {
-  font-weight: 700;
+  
   margin-bottom: 30px;
 }
 
@@ -4598,7 +4586,7 @@ i.fas.fa-envelope-open {
   border-radius: 5px;
   background: linear-gradient(90deg, rgba(65, 84, 241, 1) 0%, rgba(14, 32, 173, 1) 75%);
   color: #ffffff;
-  font-weight: 700;
+  
 }
 
 .orange .subscribe-area form button {
@@ -4752,14 +4740,14 @@ i.fas.fa-envelope-open {
   top: 10px;
   content: "\f10d";
   font-family: "Font Awesome 5 Free";
-  font-weight: 600;
+  
   font-size: 100px;
   z-index: -1;
   opacity: 0.07;
 }
 
 .testimonial-content h2 {
-  font-weight: 700;
+  
   margin-bottom: 25px;
 }
 
@@ -4786,7 +4774,7 @@ i.fas.fa-envelope-open {
 }
 
 .testimonials-carousel .item .author .info h5 {
-  font-weight: 600;
+  
   text-transform: capitalize;
   margin-bottom: 2px;
 }
@@ -4873,7 +4861,7 @@ i.fas.fa-envelope-open {
 .blog-area .item .info h4,
 .blog-area .item .info h5,
 .blog-area .item .info h6 {
-  font-weight: 700;
+  
 }
 
 .blog-area .item .info h4 {
@@ -4881,7 +4869,7 @@ i.fas.fa-envelope-open {
 }
 
 .blog-area .item .info h3 {
-  font-weight: 700;
+  
 }
 
 .blog-area .item .thumb img {
@@ -4943,7 +4931,7 @@ i.fas.fa-envelope-open {
 .blog-items .meta .content h5 {
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 700;
+  
   margin-bottom: 5px;
 }
 
@@ -4955,7 +4943,7 @@ i.fas.fa-envelope-open {
 
 .blog-items .meta ul li {
   text-transform: uppercase;
-  font-weight: 600;
+  
   font-size: 14px;
   float: left;
   margin-right: 12px;
@@ -4966,12 +4954,12 @@ i.fas.fa-envelope-open {
 
 .blog-items .meta ul li i {
   margin-right: 3px;
-  font-weight: 500;
+  ;
 }
 
 .blog-items .meta ul li a {
   color: #666666;
-  font-weight: 600;
+  
 }
 
 .blog-items .meta ul li::after {
@@ -5066,7 +5054,6 @@ i.fas.fa-envelope-open {
 }
 
 .blog-area .sidebar .title h4 {
-  font-weight: 800;
   margin-bottom: 30px;
   margin-top: -5px;
   position: relative;
@@ -5089,8 +5076,7 @@ i.fas.fa-envelope-open {
 .blog-area .sidebar button[type="submit"] {
   background: transparent;
   color: #232323;
-  font-family: ''Open Sans'', sans-serif;
-  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
   min-height: 50px;
   width: 50px;
@@ -5136,7 +5122,6 @@ i.fas.fa-envelope-open {
 .blog-area .sidebar .sidebar-item.category li a {
   display: inline-block;
   text-transform: capitalize;
-  font-weight: 700;
   color: #666666;
 }
 
@@ -5179,7 +5164,7 @@ i.fas.fa-envelope-open {
 .sidebar-item.recent-post li a {
   color: #333333;
   display: block;
-  font-weight: 600;
+  
 }
 
 .sidebar-item.recent-post li a:last-child {
@@ -5187,16 +5172,15 @@ i.fas.fa-envelope-open {
 }
 
 .sidebar-item.recent-post .meta-title {
-  font-family: ''Open Sans'', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 15px;
-  font-weight: 700;
+  
   text-transform: capitalize;
   font-size: 13px;
 }
 
 .sidebar-item.recent-post .meta-title i {
   margin-right: 3px;
-  font-weight: 500;
   color: #6667AB;
 }
 
@@ -5265,7 +5249,7 @@ i.fas.fa-envelope-open {
 .sidebar-item.recent-post li .info a {
   color: #666666;
   text-decoration: inherit;
-  font-weight: 800;
+  
   font-size: 16px;
 }
 
@@ -5298,7 +5282,7 @@ i.fas.fa-envelope-open {
 
 .sidebar-item.archives ul li a {
   display: inline-block;
-  font-weight: 800;
+  
   text-transform: capitalize;
   z-index: 1;
   padding-left: 25px;
@@ -5316,7 +5300,7 @@ i.fas.fa-envelope-open {
   left: 0;
   position: absolute;
   width: 8px;
-  font-weight: 500;
+  ;
 }
 
 .sidebar-item.social-sidebar ul {
@@ -5380,7 +5364,7 @@ i.fas.fa-envelope-open {
 .sidebar-item.tags ul li a {
   border: 1px solid #e7e7e7;
   display: inline-block;
-  font-weight: 800;
+  
   margin-top: 8px;
   margin-right: 5px;
   padding: 5px 25px;
@@ -5401,17 +5385,11 @@ i.fas.fa-envelope-open {
   background: #6667AB none repeat scroll 0 0;
   color: #ffffff;
   display: inline-block;
-  font-family: ''Open Sans'', sans-serif;
-  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  
   letter-spacing: 1px;
   padding: 3px 20px;
   text-transform: uppercase;
-}
-
-.blog-area.single .item .content-box h2,
-.blog-area.single .item .content-box h3,
-.blog-area.single .item .content-box h4 {
-  font-weight: 500;
 }
 
 .blog-area.single .content-box .cats {
@@ -5421,7 +5399,7 @@ i.fas.fa-envelope-open {
 
 .blog-area.single .content-box .meta .date {
   float: right;
-  font-family: ''Open Sans'', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -5483,7 +5461,7 @@ i.fas.fa-envelope-open {
   padding-left: 30px;
   background: #fafafa;
   padding: 50px;
-  font-weight: 500;
+  ;
   border-left: 4px solid #6667AB;
 }
 
@@ -5541,7 +5519,7 @@ i.fas.fa-envelope-open {
 
 .blog-area.single .post-pagi-area a {
   display: inline-block;
-  font-weight: 800;
+  
   text-transform: capitalize;
   color: #6667AB;
   padding: 8px 30px;
@@ -5641,7 +5619,7 @@ i.fas.fa-envelope-open {
 .comments-area .comments-title h2,
 .comments-area .comments-title h3,
 .comments-area .comments-title h4 {
-  font-weight: 700;
+  
   margin-bottom: 30px;
   text-transform: capitalize;
 }
@@ -5650,7 +5628,7 @@ i.fas.fa-envelope-open {
 .comments-list .commen-item .content h4,
 .comments-list .commen-item .content h5 {
   font-size: 16px;
-  font-weight: 700;
+  
   text-transform: capitalize;
   margin-bottom: 0;
 }
@@ -5659,7 +5637,7 @@ i.fas.fa-envelope-open {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  font-weight: 700;
+  
 }
 
 .comments-list .commen-item .content .title span {
@@ -5676,7 +5654,7 @@ i.fas.fa-envelope-open {
   margin-top: 5px;
   padding: 1px 10px;
   text-transform: uppercase;
-  font-weight: 600;
+  
 }
 
 .comments-info a:hover {
@@ -5719,9 +5697,9 @@ i.fas.fa-envelope-open {
   border: 1px solid transparent;
   color: #ffffff;
   display: inline-block;
-  font-family: ''Open Sans'', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  
   line-height: 25px;
   margin-top: 20px;
   padding: 15px 45px;
@@ -5748,7 +5726,7 @@ i.fas.fa-envelope-open {
 .comments-form .title h3,
 .comments-form .title h4 {
   border-bottom: 1px solid #e7e7e7;
-  font-weight: 700;
+  
   margin-bottom: 30px;
   padding-bottom: 25px;
   text-transform: capitalize;
@@ -5785,7 +5763,7 @@ i.fas.fa-envelope-open {
   padding: 12px 35px;
   border-radius: 5px;
   color: #ffffff;
-  font-weight: 700;
+  
   margin-top: 15px;
 }
 
@@ -5810,7 +5788,7 @@ form img.loader {
 }
 
 .contact-us-area .contact-form h2 {
-  font-weight: 200;
+  
   margin-bottom: 30px;
 }
 
@@ -5872,18 +5850,6 @@ form img.loader {
   margin: 0;
   padding: 0;
   border: none;
-}
-
-.contact-us-area .address-items .item h4 {
-  font-weight: 700;
-}
-
-.contact-us-area .address-items .item li {
-  font-weight: 800;
-}
-
-.contact-us-area .address-items .item li span {
-  font-weight: 400;
 }
 
 /* Google Maps */
@@ -5966,7 +5932,7 @@ form img.loader {
   border-radius: 5px;
   box-shadow: inherit;
   color: #ffffff;
-  font-weight: 800;
+  
   padding: 8px;
   text-transform: uppercase;
   width: 100%;
@@ -6033,7 +5999,7 @@ form img.loader {
 }
 
 .login-area .social-login h5 {
-  font-weight: 900;
+  
   margin-bottom: 15px;
   color: #666666;
   font-size: 16px;
@@ -6048,7 +6014,7 @@ form img.loader {
 }
 
 .error-page-area h2 {
-  font-weight: 700;
+  
   margin-bottom: 25px;
 }
 
@@ -6065,7 +6031,7 @@ form img.loader {
 footer .widget-title,
 footer img {
   margin-bottom: 30px;
-  font-weight: 800;
+  
 }
 
 footer .widget-title {
@@ -6253,7 +6219,7 @@ footer .footer-bottom .text-right li {
   text-align: center;
   text-transform: capitalize;
   text-shadow: 0 0 10px white;
-  font-weight: 700;
+  
   margin: 30px auto 0;
   display: block;
 }
@@ -6275,7 +6241,7 @@ footer .footer-bottom .text-right li {
   text-align: center;
   text-transform: capitalize;
   text-shadow: 0 0 10px white;
-  font-weight: 700;
+  
   margin: 30px auto 0;
   display: block;
 }
@@ -6420,7 +6386,7 @@ footer .footer-bottom .text-right li {
   position: relative;
   z-index: 1;
   background: #f7f7f7;
-  font-weight: 700;
+  
   border: 1px solid #e7e7e7;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -6693,7 +6659,7 @@ footer .footer-bottom .text-right li {
   .service-card .text h1,
   .service-card .text-left h1 {
     font-size: 17px;
-    font-weight: 600;
+    
     color: #000;
     margin: 0;
   }
@@ -6702,7 +6668,7 @@ footer .footer-bottom .text-right li {
   .service-card .text-left p {
     display: none;
     font-size: 14px;
-    font-weight: 400;
+    
     color: #000;
     margin: 0;
   }
