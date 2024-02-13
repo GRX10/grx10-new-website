@@ -6761,7 +6761,7 @@ footer .footer-bottom .text-right li {
 
 #banner-area-home {
   background-color: white;
-  background-image: url(assets/img/shape/bg-5.png);
+  background-image: url(assets/img/shape/bg-6.png);
 }
 
 @media (max-width: 800px) {
@@ -6777,7 +6777,6 @@ footer .footer-bottom .text-right li {
     margin-top: 70px;
     height: 100vh;
     width: 100vw;
-    background-image: url(assets/img/illustration/mobilebanner\ 1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -7059,3 +7058,14 @@ li > .info a:hover{
   color: #000;
 }
 
+@media screen and (max-width: 1023px) {
+  #herosection{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #herosection .col img{
+    width: 65%;
+  }
+  
+}
