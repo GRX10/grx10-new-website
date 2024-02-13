@@ -215,8 +215,7 @@ a {
   -ms-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   text-decoration: none;
-  font-family: ''Open Sans'', sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
 }
 
 b,
@@ -6077,15 +6076,12 @@ footer .widget-title {
 
 footer .f-item.recent-post a {
   font-size: 17px;
-  font-weight: 600;
   line-height: 32px;
   color: darkgray;
 }
 
 footer .f-item.recent-post span a {
   font-size: 13px;
-  font-weight: 800;
-
 }
 
 footer .f-item.recent-post a:hover {
@@ -6097,7 +6093,6 @@ footer .recent-post span {
   margin-top: 15px;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 600;
 }
 
 footer .recent-post span i {
@@ -6123,7 +6118,6 @@ footer .recent-post .item:last-child {
 footer .address h5 {
   margin-bottom: 10px;
   text-transform: capitalize;
-  font-weight: 600;
   font-size: 18px;
 }
 
@@ -6141,7 +6135,7 @@ footer .address span i {
 
 footer .address li {
   display: flex;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 footer .address li i {
@@ -6152,7 +6146,6 @@ footer .address li i {
 
 footer .address {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 15px;
 }
 
 footer .link li {
@@ -7090,5 +7083,13 @@ li>.active {
 
 #cta h2 ,#cta p{
   color: white;
+}
+
+li > .info a{
+  color: darkgray;
+}
+
+li > .info a:hover{
+  color: #000;
 }
 
