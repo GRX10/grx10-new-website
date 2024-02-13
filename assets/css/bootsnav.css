@@ -527,7 +527,6 @@ nav.bg-dark.navbar.bootsnav {
 nav.navbar.bootsnav ul.nav > li > a {
   color: #333333;
   background-color: transparent !important;
-  text-transform: uppercase;
   font-size: 14px;
 }
 
@@ -1477,7 +1476,6 @@ nav.navbar.bootsnav {
     font-size: 13px;
     letter-spacing: 0.06em;
     padding: 35px 15px;
-    text-transform: uppercase;
   }
 
   nav.navbar.bootsnav ul.nav > li > a.active {

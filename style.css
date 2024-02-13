@@ -6696,11 +6696,7 @@ footer .footer-bottom .text-right li {
 }
 
 #nav-link:hover {
-  text-decoration: underline;
-  text-decoration-color: #e0218a;
-  -webkit-transition: none;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 3px;
+  color: #FF249C;
 }
 
 #nav-link::after {
@@ -7024,17 +7020,13 @@ footer .footer-bottom .text-right li {
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 10px;
+    font-size: 15px;
   }
 
 }
 
-li>.active {
-  text-decoration: underline;
-  text-decoration-color: #e0218a;
-  -webkit-transition: none;
-  text-decoration-thickness: 3px;
-  text-underline-offset: 3px;
+#nav-link.active {
+  color: #e0218a;
 }
 
 #cta {
@@ -7068,4 +7060,21 @@ li > .info a:hover{
     width: 65%;
   }
   
+}
+
+
+.no-background > .container > .navbar-header > .navbar-brand {
+  box-shadow: 5px 2px 2px rgba(80, 64, 129, 0.2);
+}
+
+.navbar-brand{
+  box-shadow: none;
+  transition: none;
+}
+
+@media screen and (max-width: 1023px) {
+  
+  .navbar-brand{
+    box-shadow: none;
+  }
 }
