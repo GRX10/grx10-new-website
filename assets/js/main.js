@@ -10,7 +10,7 @@
     "use strict";
 
     $(document).on('ready', function () {
-
+        
         //for text animation in hero section
         var slideIndex = 1;
         showSlides(slideIndex);
@@ -26,6 +26,7 @@
         function showSlides(n) {
             var i;
             var slides = document.getElementsByClassName("mySlides");
+            if(slides.length > 0){
             if (n > slides.length) { slideIndex = 1 }
             if (n < 1) { slideIndex = slides.length }
             for (i = 0; i < slides.length; i++) {
@@ -34,6 +35,8 @@
 
             slides[slideIndex - 1].style.display = "block";
         }
+        }
+    
         window.onload = function () {
             setInterval(function () {
                 plusSlides(1);

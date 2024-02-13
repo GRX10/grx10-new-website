@@ -3007,29 +3007,15 @@ body,
 .choose-us-area ul li {
   position: relative;
   z-index: 1;
-  padding-left: 50px;
   line-height: 30px;
+}
+
+.choose-us-area ul li::marker {
+  margin-top: 20px;
 }
 
 .choose-us-area ul li p {
   margin-bottom: 0;
-}
-
-.choose-us-area ul li::after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "\f00c";
-  font-family: "Font Awesome 5 Free";
-  background: #f7f7f7;
-  color: #6667AB;
-  height: 40px;
-  width: 35px;
-  line-height: 40px;
-  text-align: center;
-  font-size: 10px;
-  
-  clip-path: polygon(100% 0, 100% 77%, 77% 100%, 0 100%, 0 0);
 }
 
 .choose-us-area ul li i {
@@ -6757,7 +6743,7 @@ footer .footer-bottom .text-right li {
 
 #banner-area-home {
   background-color: white;
-  background-image: url(assets/img/shape/bg-6.png);
+  background-image: url(assets/img/bg-6.png);
 }
 
 @media (max-width: 800px) {
