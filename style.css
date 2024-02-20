@@ -353,7 +353,7 @@ input {
 }
 
 .bg-gray {
-  background-color: #f3f7fd;
+  background-color: #9c9db918;
 }
 
 .bg-gray-hard {
@@ -7048,7 +7048,14 @@ li>.info a:hover {
   }
 
   #herosection .col img {
-    width: 65%;
+    height: 50vh;
+  }
+
+  #youtubevideo{
+    display: none;
+    /*width: 85vw;
+    margin-left: 9.5vw;
+    margin-bottom: 10px;*/
   }
 
 }
@@ -7155,4 +7162,34 @@ li>.info a:hover {
 .afterhover img{
   width: 178px;
   height: 178px;
+}
+
+#navbar{
+  border-bottom: 5px solid #D7CCFF;
+}
+
+#navbar.no-background{
+  border-bottom: none;
+}
+
+#heroheader{
+  font-size: 50px;
+}
+
+#herosection > img{
+  height: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  #heroheader{
+    font-size: 40px;
+  }
+
+  #herosection > img{
+    height: 100px;
+  }
+}
+
+#herosection .col img{
+  height: 100%;
 }
