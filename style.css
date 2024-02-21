@@ -6025,13 +6025,13 @@ footer .widget-title {
 }
 
 footer .f-item.recent-post a {
-  font-size: 17px;
+  font-size: 14px;
   line-height: normal;
   color: var(--Text-Body, #565656);
 }
 
 footer .f-item.recent-post span a {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 footer .f-item.recent-post a:hover {
@@ -7199,9 +7199,17 @@ li>.info a:hover {
     margin-bottom: 10px;*/
   }
 
+  .mobileelement{
+    display: block;
+  }
+  
+
 }
 
 #readmorebtn{
   display: none;
 }
 
+.mobileelement{
+  display: none;
+}
