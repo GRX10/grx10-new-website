@@ -155,7 +155,6 @@ iframe {
 
 p {
   color: #666666;
-  margin: 0 0 15px;
   text-transform: none;
 }
 
@@ -6025,7 +6024,6 @@ footer .widget-title {
 }
 
 footer .f-item.recent-post a {
-  font-size: 12px;
   line-height: normal;
   color: var(--Text-Body, #565656);
 }
@@ -6107,7 +6105,6 @@ footer .link li:last-child {
 
 footer .link li a {
   color: var(--Text-Body, #565656);
-  font-size: 12px;
 }
 
 footer .link a:hover {
@@ -6335,6 +6332,25 @@ footer .footer-bottom .text-right li {
   .about-us {
     margin-top: 10px;
   }
+
+  footer .f-item.recent-post a {
+    font-size: 12px;
+  }
+
+  footer .link li a {
+    color: var(--Text-Body, #565656);
+    font-size: 12px;
+  }
+
+  #serviceinnerblock>#hovercardtext p {
+    display: none;
+  }
+
+  #serviceinnerblock #imgcontainer img {
+    transform: scale(1.1);
+    transition: ease-in 0.5s;
+  }
+
 
 }
 
