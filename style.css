@@ -6326,7 +6326,7 @@ footer .footer-bottom .text-right li {
 }
 
 #serviceinnerblock h4 {
-  font-size: 16px;
+  font-size: 30px;
 }
 
 
@@ -6358,6 +6358,9 @@ footer .footer-bottom .text-right li {
     transition: ease-in 0.5s;
   }
 
+  #serviceinnerblock h4 {
+    font-size: 16px;
+  }
 
 }
 
