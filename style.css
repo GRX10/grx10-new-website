@@ -6025,7 +6025,7 @@ footer .widget-title {
 }
 
 footer .f-item.recent-post a {
-  font-size: 14px;
+  font-size: 12px;
   line-height: normal;
   color: var(--Text-Body, #565656);
 }
@@ -6107,6 +6107,7 @@ footer .link li:last-child {
 
 footer .link li a {
   color: var(--Text-Body, #565656);
+  font-size: 12px;
 }
 
 footer .link a:hover {
