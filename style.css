@@ -7161,10 +7161,6 @@ li>.info a:hover {
   padding: 20px;
 }
 
-.aboutuscards{
-  min-width: 300px;
-}
-
 .aboutuscards:hover .beforehover{
   display: none;
 }
