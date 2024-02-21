@@ -95,6 +95,13 @@ body {
   color: #666666;
 }
 
+@media screen and (max-width: 991px) {
+  body {
+    font-size: 13px;
+  }
+  
+}
+
 html,
 body,
 .wrapper {
@@ -7229,4 +7236,20 @@ li>.info a:hover {
 
 .mobileelement{
   display: none;
+}
+
+i.fa.fa-bars:before {
+  position: fixed;
+  top:25px;
+  right: 30px;
+}
+
+#mobileimage{
+  display: none;
+}
+
+@media screen and (max-width: 717px) {
+  #mobileimage.row{
+    display: flex;
+  }
 }

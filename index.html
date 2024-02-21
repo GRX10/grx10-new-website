@@ -52,21 +52,39 @@
 
             <div class="container">
                 <!-- Start Header Navigation -->
-                <div style="display: flex; height: 69px; flex-direction: row; padding: 20px;" class="row">
+                
+                <div id="mobileimage" style="height: 69px; flex-direction: row; padding: 20px;" class="row">
                     <div class="col" style="padding-left: 0px;">
-                        <img src="assets/img/logo-cornflower-blue.png" class="logo logo-scrolled" alt="Logo" style="height: 40px;object-fit: contain;">
+                        <a href="index.html">
+                        <img id="mobileimage" src="assets/img/logo-cornflower-blue.png" class="logo logo-scrolled" alt="Logo" style="height: 29px;object-fit: contain;">
+                        </a>
                     </div>
-                    <div class="col" style="display: flex; flex-direction: row; gap:15px; align-items: center; align-items: center; ">
-                        <a id="mobileimage"
-                            style="border-radius: 5px;background-color: #e0218a;padding: 5px;color: white;padding-left: 10px;padding-right: 10px;font-size: 15px; height: 30px;"
+                    <div class="col" style="padding-top: 5px;">
+                        <a
+                            style="border-radius: 5px;background-color: #e0218a;padding: 5px;color: white;padding-left: 10px;padding-right: 10px;font-size: 15px; height: 30px; margin-top: 20px;"
                             href="https://share.hsforms.com/1gkFtNzjGTiazX19liGrYUgqr4pd" target="_blank">
                             contact
                         </a>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="fa fa-bars"></i>
-                        </button>
-
                     </div>
+                    <button style="height: 40px; padding: 5px;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+
+
+                <div class="navbar-header" id="desktopimage">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo-light-grx.png" class="logo logo-display" alt="Logo">
+                        <img src="assets/img/logo-cornflower-blue.png" class="logo logo-scrolled" alt="Logo">
+                    </a>
+                    <a id="mobilecontactbutton" href="https://share.hsforms.com/1gkFtNzjGTiazX19liGrYUgqr4pd"
+                        target="_blank">
+                        contact
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
                 </div>
                 <!-- End Header Navigation -->
 
@@ -751,7 +769,7 @@
                                 <a href="" target="_blank">
                                     <div class="f-item link h-100">
                                         <h4 id="mobileimage" class="sidenav"
-                                            style="font-size: 24px;cursor: pointer; text-align: right; height: 100%; font-weight: 600; color: #FF249C;">
+                                            style="cursor: pointer; text-align: right; height: 100%; font-weight: 600; color: #FF249C;">
                                             Enquire Now</h4>
                                     </div>
                                 </a>
