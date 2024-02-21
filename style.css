@@ -6773,7 +6773,7 @@ footer .footer-bottom .text-right li {
 @media (max-width: 800px) {
   #banner-area-home {
     display: block;
-    height: 100vh;
+    height: 85vh;
     background-image: none;
   }
 
