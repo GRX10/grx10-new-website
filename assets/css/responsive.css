@@ -4,7 +4,7 @@
 
 /* Tablet Layout: 768px.*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
+  
 
     /* Topbar Area */
   .top-bar-area {
@@ -22,6 +22,7 @@
   /* Banner */
   .banner-area p {
     padding: 0;
+    font-size: 12px;
   }
 
   body, .banner-area, .banner-area div {
@@ -408,6 +409,10 @@
     line-height: 1.4;
   }
 
+  p{
+    font-size: 14px;
+  }
+
   .container-medium {
     width: 100%;
   }
@@ -556,6 +561,8 @@
 
   .banner-area p {
     padding: 0;
+    font-size: 12px;
+    width: 400px;
   }
 
   body, .banner-area, .banner-area div {

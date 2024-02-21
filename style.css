@@ -6749,15 +6749,13 @@ footer .footer-bottom .text-right li {
 @media (max-width: 800px) {
   #banner-area-home {
     display: block;
-    height: 100vh;
+    height: 80vh;
     background-image: none;
   }
 
   #banner-area-home .container {
-    margin: 0px;
-    padding: 0px;
     margin-top: 70px;
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     background-size: contain;
     background-repeat: no-repeat;
@@ -7047,24 +7045,7 @@ li>.info a:hover {
   color: #000;
 }
 
-@media screen and (max-width: 1023px) {
-  #herosection {
-    flex-direction: column;
-    gap: 30px;
-  }
 
-  #herosection .col img {
-    height: 50vh;
-  }
-
-  #youtubevideo{
-    display: none;
-    /*width: 85vw;
-    margin-left: 9.5vw;
-    margin-bottom: 10px;*/
-  }
-
-}
 
 
 .no-background>.container>.navbar-header>.navbar-brand {
@@ -7198,6 +7179,25 @@ li>.info a:hover {
 
 #herosection .col img{
   height: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  #herosection {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #herosection .col img {
+    height: 50vh;
+  }
+
+  #youtubevideo{
+    display: none;
+    /*width: 85vw;
+    margin-left: 9.5vw;
+    margin-bottom: 10px;*/
+  }
+
 }
 
 #readmorebtn{
