@@ -382,6 +382,10 @@ h1{
   font-size: 80px;
 }
 
+h2{
+  font-size: 40px;
+}
+
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
@@ -1219,7 +1223,4 @@ h1{
   .banner-area .thumb-innner .icon {
     margin-left: -15px;
   }
-}
-h2{
-  font-size: 40px;
 }

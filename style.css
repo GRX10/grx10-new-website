@@ -6326,7 +6326,7 @@ footer .footer-bottom .text-right li {
 }
 
 #serviceinnerblock h4 {
-  font-size: 27px;
+  font-size: 16px;
 }
 
 
@@ -7209,7 +7209,6 @@ li>.info a:hover {
   #herosection {
     flex-direction: column;
     gap: 30px;
-    height: 100vh;
   }
 
   #herosection .col img {

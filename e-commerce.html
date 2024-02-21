@@ -322,15 +322,27 @@
 
     <!-- Start Footer 
     ============================================= -->
-    <footer>
+   <footer>
         <div class="container">
-            <div class="f-items default-padding" style="border-bottom: 1px #D5D5D5 solid ;">
+            <div class="f-items default-padding-top" style="border-bottom: 1px #D5D5D5 solid ;">
                 <div class="row">
                     <div class="col-lg-4 col-md-2 item">
-                        <div class="f-item about">
-                            <img src="assets/img/logo-cornflower-blue.png" alt="Logo">
+                        <div class="row">
+                            <div class="f-item about col">
+                                <img src="assets/img/logo-cornflower-blue.png" alt="Logo">
+                            </div>
+                            <div id="mobileimage" class="col item"
+                                style="width: 100%; height: 100%; margin-top: 0px; display: flex; align-items: center; justify-content: flex-end;">
+                                <a href="" target="_blank">
+                                    <div class="f-item link h-100">
+                                        <h4 id="mobileimage" class="sidenav"
+                                            style="cursor: pointer; text-align: right; height: 100%; font-weight: 600; color: #FF249C;">
+                                            Enquire Now</h4>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        <div class="address">
+                        <div class="address" id="desktopimage">
                             <ul>
                                 <li>
                                     <div class="info"
@@ -343,16 +355,11 @@
                                                 style="color: var(--Text-Body, #565656);"></i></a>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="info">
-
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-1 item">
+                    <div class="col item">
                         <div class="f-item link">
                             <h4 class="widget-title">Company</h4>
                             <ul>
@@ -369,15 +376,15 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 item">
+                    <div class="col item">
                         <div class="f-item link">
                             <h4 class="widget-title">Services</h4>
                             <ul>
                                 <li>
-                                    <a href="product-marketing.html">Product Marketing</a>
+                                    <a href="product-marketing.html">Product marketing</a>
                                 </li>
                                 <li>
-                                    <a href="digital-marketing.html">Digital Marketing</a>
+                                    <a href="digital-marketing.html">Digital marketing</a>
                                 </li>
                                 <li>
                                     <a href="e-commerce.html">E - Commerce</a>
@@ -386,13 +393,14 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 item">
+                    <div class="col col-md-2 item">
                         <div class="f-item recent-post">
                             <h4 class="widget-title">Latest Blogs</h4>
                             <div class="item">
                                 <a href="https://grx10.blogspot.com/2024/02/grx10-logo-inception-and-significance.html"
                                     target="_blank">GRX10 - Logo, Inception and Significance</a>
-                                <span><i class="fas fa-calendar-alt"></i> <a href="#">22 Dec, 2024 - Admin</a></span>
+                                <span id="desktopimage"><i class="fas fa-calendar-alt"></i> <a href="#">22 Dec, 2024 -
+                                        Admin</a></span>
                             </div>
                         </div>
                     </div>
@@ -402,13 +410,19 @@
                             <h4 class="widget-title sidenav" style="cursor: pointer;">Enquire Now</h4>
                         </div>
                     </div>
-
-                    <div id="mobileimage" class="col-lg-2 col-md-1 item">
-                        <a href="" target="_blank">
-                            <div class="f-item link">
-                                <h4 class="widget-title sidenav" style="cursor: pointer;">Enquire Now</h4>
-                            </div>
-                        </a>
+                </div>
+                <div id="mobileimage" class="row"
+                    style="width: 100%;height: fit-content; margin-top: 40px; margin-bottom: 20px; display: flex; ">
+                    <div id="mobileimage" class="col">
+                        <i class="fa fa-envelope" aria-hidden="true"></i> <a
+                            href="mailto:admin@grx10.com">admin@grx10.com</a>
+                    </div>
+                    <div id="mobileimage" class="col" style="text-align: right; padding-right: 0px;">
+                        <a style="margin-right: 10px; font-size: 21px;"
+                            href="https://www.instagram.com/grx10_official/"><i class="fab fa-instagram"
+                                style="color: var(--Text-Body, #565656);"></i></a>
+                        <a style="font-size: 21px;" href="https://in.linkedin.com/company/grx10" target="_blank"><i
+                                class="fab fa-linkedin" style="color: var(--Text-Body, #565656);"></i></a>
                     </div>
                 </div>
             </div>
@@ -421,15 +435,22 @@
                         <p style="color: var(--Text-Body, #565656);">Copyright &copy; <span id="year"></span>. Designed
                             by <a style="color: var(--Text-Body, #565656);" href="#">GRX10</a></p>
                     </div>
-                    <div class="col-md-6 text-right link">
-                        <ul>
-                            <li>
-                                <a style="font-weight: normal;" href="privacypolicy.html">Privacy Policy</a>
+                    <div id="mobileimage" class="col-md-6 text-right link">
+                        <ul class="row">
+                            <li id="mobileimage" class="col-md-12 col-lg">
+                                <a style="font-weight: normal; text-align: left;" href="privacypolicy.html">Privacy
+                                    Policy</a>
                             </li>
-                            <li>
+                            <li id="mobileimage" class="col-md-12 col-lg">
                                 <a style="font-weight: normal;" href="legaldisclaimer.html">Legal Disclaimer</a>
                             </li>
                         </ul>
+                    </div>
+                    <div id="desktopimage" class="col text-right link">
+                        <a style="font-weight: normal; text-align: left;" href="privacypolicy.html">Privacy
+                            Policy</a>
+                        <a style="font-weight: normal; margin-left: 18px;" href="legaldisclaimer.html">Legal
+                            Disclaimer</a>
                     </div>
                 </div>
             </div>
