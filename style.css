@@ -6768,7 +6768,7 @@ footer .footer-bottom .text-right li {
 @media (max-width: 800px) {
   #banner-area-home {
     display: block;
-    height: 85vh;
+    height: 100vh;
     background-image: none;
   }
 
@@ -7262,6 +7262,11 @@ li>.info a:hover {
   justify-content: end;
 }
 
+#herovideo{
+  height: auto;
+  width: 560px;
+}
+
 @media screen and (min-width: 1300px) {
   footer .container {
     min-width: 1331px;
@@ -7297,6 +7302,11 @@ li>.info a:hover {
     justify-content: left; 
     padding-left: 15px;
 
+  }
+
+  #herovideo{
+    height: 201px;
+    width: 329px;
   }
 
 }
