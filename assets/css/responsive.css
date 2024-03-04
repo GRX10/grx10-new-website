@@ -888,11 +888,6 @@ h2{
     margin-top: 40px;
   }
 
-  .fun-factor-area .item:first-child {
-    margin-top: 0;
-  }
-
-
   /* Portfolio */
 
   .projects-area .gallery-items.colums-2 .pf-item,
@@ -1064,10 +1059,6 @@ h2{
 
   footer .row > .item {
     margin-top: 50px;
-  }
-
-  footer .row > .item:first-child {
-    margin-top: 0;
   }
 
   footer .footer-bottom {
