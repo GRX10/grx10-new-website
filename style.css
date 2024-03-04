@@ -99,7 +99,7 @@ body {
   body {
     font-size: 13px;
   }
-  
+
 }
 
 html,
@@ -6017,17 +6017,15 @@ form img.loader {
 =================================================================== */
 
 
-footer .widget-title,
-footer img {
-  margin-bottom: 30px;
-
+footer .widget-title {
+  margin-bottom: 12px;
 }
 
 footer .widget-title {
   display: inline-block;
   position: relative;
   z-index: 1;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 footer .f-item.recent-post a {
@@ -6103,7 +6101,7 @@ footer .address {
 }
 
 footer .link li {
-  margin-bottom: 15px;
+  margin-bottom: 7px;
 }
 
 footer .link li:last-child {
@@ -6843,7 +6841,7 @@ footer .footer-bottom .text-right li {
   border-radius: 20px;
 }
 
-.profileinfo > a > i{
+.profileinfo>a>i {
   color: #e0218a;
 }
 
@@ -7112,7 +7110,7 @@ li>.info a:hover {
   background-color: #6667AB;
 }
 
-.beforehover{
+.beforehover {
   height: 100%;
   width: 100%;
   display: flex;
@@ -7122,7 +7120,7 @@ li>.info a:hover {
   gap: 30px;
 }
 
-.afterhover{
+.afterhover {
   height: 100%;
   width: 100%;
   display: flex;
@@ -7134,67 +7132,68 @@ li>.info a:hover {
 }
 
 
-.beforehover img{
+.beforehover img {
   width: 205px;
   height: 205px;
 }
 
-.beforehover h3{
+.beforehover h3 {
   color: white;
 }
 
-.afterhover p, .afterhover h3{
+.afterhover p,
+.afterhover h3 {
   color: white;
 }
 
-.afterhover{
+.afterhover {
   display: none;
 }
 
-.afterhover{
+.afterhover {
   padding: 20px;
 }
 
-.aboutuscards:hover .beforehover{
+.aboutuscards:hover .beforehover {
   display: none;
 }
 
-.aboutuscards:hover .afterhover{
+.aboutuscards:hover .afterhover {
   display: flex;
 }
 
-.afterhover img{
+.afterhover img {
   width: 178px;
   height: 178px;
 }
 
-#navbar{
+#navbar {
   border-bottom: 5px solid #D7CCFF;
 }
 
-#navbar.no-background{
+#navbar.no-background {
   border-bottom: none;
 }
 
-#heroheader{
+#heroheader {
   font-size: 50px;
 }
 
-#herosection > img{
+#herosection>img {
   height: 100%;
 }
 
 @media screen and (max-width: 1023px) {
-  #heroheader{
+  #heroheader {
     font-size: 30px;
   }
 
-  #herosection > img{
+  #herosection>img {
     height: 100px;
   }
 }
 
-#herosection .col img{
+#herosection .col img {
   height: 100%;
 }
 
@@ -7208,24 +7207,45 @@ li>.info a:hover {
     height: 50vh;
   }
 
-  #youtubevideo{
+  #youtubevideo {
     display: none;
     /*width: 85vw;
     margin-left: 9.5vw;
     margin-bottom: 10px;*/
   }
 
-  .mobileelement{
+  .mobileelement {
     display: block;
   }
-  
+
 
 }
 
-#readmorebtn{
+#readmorebtn {
   display: none;
 }
 
-.mobileelement{
+.mobileelement {
   display: none;
+}
+
+#list-right {
+  display: flex;
+  justify-content: right;
+}
+
+#googlemap{
+  width:370px;
+  height:203px;
+}
+
+@media screen and (min-width: 1300px) {
+  footer .container{
+    min-width: 1331px;
+  }
+
+  #googlemap{
+    width: 450px;
+  }
+
 }
