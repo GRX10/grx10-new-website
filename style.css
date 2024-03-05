@@ -7225,7 +7225,7 @@ li>.info a:hover {
   display: none;
 }
 
-.widget-title{
+.widget-title {
   text-align: right;
 }
 
@@ -7235,14 +7235,14 @@ li>.info a:hover {
   justify-content: right;
 }
 
-.address > ul > li > p{
+.address>ul>li>p {
   text-align: right;
 }
 
-#footer-logo{
-  width: 100%; 
-  display: flex; 
-  justify-content: right; 
+#footer-logo {
+  width: 100%;
+  display: flex;
+  justify-content: right;
   padding-right: 15px;
 }
 
@@ -7258,7 +7258,7 @@ li>.info a:hover {
   justify-content: end;
 }
 
-#herovideo{
+#herovideo {
   height: auto;
   width: 560px;
 }
@@ -7267,6 +7267,13 @@ li>.info a:hover {
   footer .container {
     min-width: 1331px;
   }
+}
+
+#aboutus-journey {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 767px) {
@@ -7280,29 +7287,64 @@ li>.info a:hover {
     justify-content: left;
   }
 
-  .widget-title+ul>li>a{
+  .widget-title+ul>li>a {
     font-size: 13px;
   }
 
-  .widget-title{
+  .widget-title {
     text-align: left;
   }
 
-  .address > ul > li > p{
+  .address>ul>li>p {
     text-align: left;
   }
 
-  #footer-logo{
-    width: 100%; 
-    display: flex; 
-    justify-content: left; 
+  #footer-logo {
+    width: 100%;
+    display: flex;
+    justify-content: left;
     padding-left: 15px;
 
   }
 
-  #herovideo{
+  #herovideo {
     height: 201px;
     width: 329px;
+  }
+
+  #aboutus-journey {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .aboutuscards{
+    height: auto;
+    width: auto;
+  }
+
+  .beforehover{
+    display: none;
+  }
+
+  .afterhover{
+    display: flex;
+    flex-direction: row;
+    min-height: 160px;
+  }
+
+  .afterhover > div > h3,
+  .afterhover > div > p{
+    text-align: left;
+  }
+
+  .afterhover > div > h3{
+    font-size: 16px;
+  }
+
+  .afterhover > img{
+    width: 88px;
+    height: 88px;
   }
 
 }
@@ -7313,8 +7355,8 @@ li>.info a:hover {
   aspect-ratio: 16/9;
 
   iframe {
-      width: 300%;
-      height: 100%;
-      margin-left: -100%;
+    width: 300%;
+    height: 100%;
+    margin-left: -100%;
   }
 }
