@@ -2172,7 +2172,6 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav .navbar-brand {
     display: inline-block;
-    float: none !important;
     margin: 0 !important;
   }
 
@@ -2186,8 +2185,6 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav .navbar-toggle {
     display: inline-block;
-    float: left;
-    margin-right: -200px;
     margin-top: 15px;
   }
 
@@ -2196,7 +2193,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav.navbar-fixed .navbar-toggle {
-    margin-top: 16px;
+    margin-top: 18px;
   }
 
   nav.navbar.bootsnav.navbar-fixed img {
