@@ -7318,34 +7318,107 @@ li>.info a:hover {
     margin-bottom: 20px;
   }
 
-  .aboutuscards{
+  .aboutuscards {
     height: auto;
     width: auto;
   }
 
-  .beforehover{
+  .beforehover {
     display: none;
   }
 
-  .afterhover{
+  .afterhover {
     display: flex;
     flex-direction: row;
     min-height: 160px;
   }
 
-  .afterhover > div > h3,
-  .afterhover > div > p{
+  .afterhover>div>h3,
+  .afterhover>div>p {
     text-align: left;
   }
 
-  .afterhover > div > h3{
+  .afterhover>div>h3 {
     font-size: 16px;
     font-weight: 600;
   }
 
-  .afterhover > img{
+  .afterhover>img {
     width: 88px;
     height: 88px;
+  }
+
+  #points-content>li>p {
+    display: none;
+  }
+
+  #points{
+    background-color: white;
+  }
+
+  #points ul{
+    padding-left: 25px;
+    padding-right: 25px;
+    list-style-image: url("assets/img/listimage-purple.svg");
+  }
+
+  #points ul li {
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding: 0px;
+    text-indent: 18px;
+  }
+
+  .choose-us-area ul li h5 {
+    margin-bottom: 0px;
+  }
+
+  .choose-us-area h2 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .profilephoto{
+    display: none;
+  }
+
+  #profilescontainer{
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .profileinfo{
+    border: none;
+    background-color: rgba(215, 204, 255, 0.50) ;
+  }
+
+  .profileinfo img{
+    margin-bottom: 24px;
+  }
+
+  .profileinfo h2{
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600px;
+  }
+
+  .profileinfo h3{
+    font-size: 13px;
+    font-weight: 600px;
+  }
+
+  .profileinfo p{
+    font-style: italic;
+  }
+
+  .team-area .container{
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .profileinfo > a > i{
+    color: #000;
   }
 
 }
