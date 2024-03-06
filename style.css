@@ -7276,6 +7276,10 @@ li>.info a:hover {
   margin-top: 100px;
 }
 
+#banner-area-home{
+  background-image: url(assets/img/bg-6.png)
+}
+
 @media screen and (max-width: 767px) {
   #copyright {
     justify-content: center;
@@ -7421,8 +7425,11 @@ li>.info a:hover {
     color: #000;
   }
 
-}
+  #banner-area-home{
+    background-image: none;
+  }
 
+}
 .youtube-container {
   overflow: hidden;
   width: 500px;
