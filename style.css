@@ -7276,8 +7276,15 @@ li>.info a:hover {
   margin-top: 100px;
 }
 
-#banner-area-home{
+#banner-area-home.index {
   background-image: url(assets/img/bg-6.png)
+}
+
+.item.blog {
+  width: 410px;
+  height: 607px;
+  flex-shrink: 0;
+  border: 1px #D9D9D9 solid;
 }
 
 @media screen and (max-width: 767px) {
@@ -7356,11 +7363,11 @@ li>.info a:hover {
     display: none;
   }
 
-  #points{
+  #points {
     background-color: white;
   }
 
-  #points ul{
+  #points ul {
     padding-left: 25px;
     padding-right: 25px;
     list-style-image: url("assets/img/listimage-purple.svg");
@@ -7383,53 +7390,54 @@ li>.info a:hover {
     font-weight: 700;
   }
 
-  .profilephoto{
+  .profilephoto {
     display: none;
   }
 
-  #profilescontainer{
+  #profilescontainer {
     flex-direction: row;
     gap: 20px;
   }
 
-  .profileinfo{
+  .profileinfo {
     border: none;
-    background-color: rgba(215, 204, 255, 0.50) ;
+    background-color: rgba(215, 204, 255, 0.50);
   }
 
-  .profileinfo img{
+  .profileinfo img {
     margin-bottom: 24px;
   }
 
-  .profileinfo h2{
+  .profileinfo h2 {
     margin-bottom: 0px;
     font-size: 16px;
     font-weight: 600px;
   }
 
-  .profileinfo h3{
+  .profileinfo h3 {
     font-size: 13px;
     font-weight: 600px;
   }
 
-  .profileinfo p{
+  .profileinfo p {
     font-style: italic;
   }
 
-  .team-area .container{
+  .team-area .container {
     padding-left: 22px;
     padding-right: 22px;
   }
 
-  .profileinfo > a > i{
+  .profileinfo>a>i {
     color: #000;
   }
 
-  #banner-area-home{
+  #banner-area-home.index {
     background-image: none;
   }
 
 }
+
 .youtube-container {
   overflow: hidden;
   width: 500px;
