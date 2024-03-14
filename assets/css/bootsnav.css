@@ -576,6 +576,7 @@ ul.menu-col li a:hover, ul.menu-col li a:focus {
 #navbar-menu {
   -webkit-animation-duration: .3s;
   animation-duration: .3s;
+  height: auto;
 }
 
 nav.bootsnav.navbar-full {
@@ -2411,11 +2412,6 @@ nav.navbar.bootsnav {
   nav.navbar.bootsnav .navbar-collapse {
     border: none;
     margin-bottom: 0;
-  }
-
-  nav.navbar.bootsnav.no-full .navbar-collapse {
-    max-height: 350px;
-    overflow-y: auto !important;
   }
 
   nav.navbar.bootsnav .navbar-collapse.collapse {

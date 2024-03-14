@@ -6392,7 +6392,6 @@ footer .footer-bottom .text-right li {
 }
 
 #tabsContent {
-  display: none;
   border-radius: 20px;
   border: 1px solid #E4E4E4;
   background: #F7F7F7;
@@ -6438,10 +6437,6 @@ footer .footer-bottom .text-right li {
   .mobile-services-dropdown {
     display: flex;
     background-color: #ccddff;
-  }
-
-  .tabs-content-area {
-    display: none;
   }
 
 }
@@ -7386,7 +7381,7 @@ li>.info a:hover {
   }
 
   .choose-us-area h2 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
   }
 
@@ -7448,4 +7443,8 @@ li>.info a:hover {
     height: 100%;
     margin-left: -100%;
   }
+}
+
+#calendly-embed > .calendly-spinner{
+  display: none;
 }
