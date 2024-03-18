@@ -7199,6 +7199,10 @@ li>.info a:hover {
   }
 
   #herosection .col img {
+    height: 25vh;
+  }
+
+  #herosection .col #index-hero-img{
     height: 50vh;
   }
 
@@ -7449,9 +7453,9 @@ li>.info a:hover {
   display: none;
 }
 
-#product,
-#digital,
-#ecommerce {
+#product.index,
+#digital.index,
+#ecommerce.index {
   display: none;
   transition: ease-in-out 0.1s;
 }
@@ -7532,13 +7536,15 @@ li>.info a:hover {
     margin-bottom: 0px;
   }
 
-  .info > p {
+  #product .info>p,
+  #digital .info>p,
+  #ecommerce .info>p {
     text-align: left;
     text-wrap: pretty;
     font-size: 12px;
   }
 
-  .info > p+a {
+  .info>p+a {
     display: block;
     width: 100%;
     border-radius: 5px;
@@ -7548,16 +7554,19 @@ li>.info a:hover {
     font-size: 12px;
   }
 
+  .col-lg-8:has(#tab1.active, #tab2.active, #tab3.active, #tab4.active, #tab5.active)+.col>#product.index {
+    display: block;
+  }
 
-.col-lg-8:has(#tab1.active, #tab2.active, #tab3.active, #tab4.active, #tab5.active)+.col>#product {
-  display: block;
-}
+  .col-lg-8:has(#tab6.active, #tab7.active, #tab9.active, #tab10.active, #tab16.active, #tab17.active)+.col>#digital.index {
+    display: block;
+  }
 
-.col-lg-8:has(#tab6.active, #tab7.active, #tab9.active, #tab10.active, #tab16.active, #tab17.active)+.col>#digital {
-  display: block;
-}
+  .col-lg-8:has(#tab11.active, #tab12.active, #tab13.active)+.col>#ecommerce.index {
+    display: block;
+  }
 
-.col-lg-8:has(#tab11.active, #tab12.active, #tab13.active)+.col>#ecommerce {
-  display: block;
-}
+  .col:has(video){
+    padding: 0px;
+  }
 }
