@@ -6404,6 +6404,7 @@ footer .footer-bottom .text-right li {
 @media (min-width: 1024px) {
   #tabsContent {
     display: block;
+    height: 331px;
   }
 
   .mobile-content {
@@ -7016,7 +7017,7 @@ footer .footer-bottom .text-right li {
     display: inline;
     position: absolute;
     margin-top: 20px;
-    right: 80px;
+    right: 55px;
     border-radius: 5px;
     background-color: #e0218a;
     padding: 5px;
@@ -7465,13 +7466,14 @@ li>.info a:hover {
   .nav-item:has(#service-heading) {
     height: auto;
     width: 32%;
+    margin-bottom: 0px;
   }
 
   #service-heading {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
     background-color: #F7F7F7;
     color: black;
     border: 1px solid #E4E4E4;
