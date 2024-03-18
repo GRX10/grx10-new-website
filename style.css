@@ -7178,7 +7178,12 @@ li>.info a:hover {
   height: 100%;
 }
 
+#herosection .col img {
+  height: 100%;
+}
+
 @media screen and (max-width: 1023px) {
+
   #heroheader {
     font-size: 30px;
   }
@@ -7186,13 +7191,7 @@ li>.info a:hover {
   #herosection>img {
     height: 100px;
   }
-}
 
-#herosection .col img {
-  height: 100%;
-}
-
-@media screen and (max-width: 1023px) {
   #herosection {
     flex-direction: column;
     gap: 30px;
@@ -7445,6 +7444,111 @@ li>.info a:hover {
   }
 }
 
-#calendly-embed > .calendly-spinner{
+#calendly-embed>.calendly-spinner {
   display: none;
+}
+
+#product,
+#digital,
+#ecommerce {
+  display: none;
+  transition: ease-in-out 0.1s;
+}
+
+@media screen and (max-width: 1023px) {
+  .center-tabs .nav-tabs {
+    height: auto;
+    display: flex;
+    gap: 1px;
+  }
+
+  .nav-item:has(#service-heading) {
+    height: auto;
+    width: 32%;
+  }
+
+  #service-heading {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #F7F7F7;
+    color: black;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+  }
+
+  #service-heading:hover {
+    background: #FF249C;
+  }
+
+  #service-heading.active {
+    background: #FF249C;
+    color: white;
+  }
+
+  #service-subheading {
+    display: none;
+  }
+
+  #product .item,
+  #digital .item,
+  #ecommerce .item {
+    border-radius: 12px;
+    border: 1px solid #E4E4E4;
+    background: #F7F7F7;
+    padding: 21px 19px 19px 23px;
+
+    h4 {
+      text-align: left;
+      margin-bottom: 12px;
+    }
+
+    h4>a {
+      color: var(--Color-2, #E0218A);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    h4>p {
+      color: var(--Dark-grey, #282828);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 0px;
+    }
+
+    p {
+      text-align: left;
+      text-wrap: pretty;
+      font-size: 12px;
+    }
+
+    p + a {
+      display: block;
+      width: 100%;
+      border-radius: 5px;
+      border: 1px solid #B2B2B2;
+      background: #F7F7F7;
+      padding: 10px;
+      font-size: 12px;
+    }
+  }
+
+  .col-lg-8:has(#tab1.active, #tab2.active, #tab3.active, #tab4.active, #tab5.active)+.col>#product {
+    display: block;
+  }
+
+  .col-lg-8:has(#tab6.active, #tab7.active, #tab9.active, #tab10.active, #tab16.active, #tab17.active)+.col>#digital {
+    display: block;
+  }
+
+  .col-lg-8:has(#tab11.active, #tab12.active, #tab13.active)+.col>#ecommerce {
+    display: block;
+  }
 }
