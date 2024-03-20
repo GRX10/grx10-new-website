@@ -37,8 +37,7 @@
     <![endif]-->
 
     <!-- ========== Google Fonts ========== -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap"
-        rel="stylesheet">
+    
 
 </head>
 
@@ -132,7 +131,7 @@
                                 style="color: #FF249C;">X</span><sup>10</sup></h1>
                     </div>
                     <div class="col" style="display: flex; justify-content: center; align-items: center;">
-                        <img id="desktopimage" style="width: 100%" src="assets/img/illustration/aboutuspage.svg">
+                        <img style="width: 100%" src="assets/img/illustration/aboutuspage.svg">
                     </div>
                 </div>
             </div>
@@ -142,7 +141,7 @@
 
 
     <div class="choose-us-area default-padding-top">
-        <div class="container">
+        <div class="container wow fadeInUp" data-wow-delay="300ms">
             <div class="row align-center">
                 <div class="col"
                     style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
@@ -164,17 +163,17 @@
         </div>
     </div>
 
-    <div id="desktopimage" class="choose-us-area default-padding-top">
+    <div class="choose-us-area">
         <div class="container">
             <div class="row align-center">
                 <div class="col"
                     style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
-                    <div class="site-heading text-center wow" style="width: 100%;" data-wow-delay="500ms">
-                        <h2 style="padding: 20px;">
+                    <div class="site-heading text-center" style="width: 100%;">
+                        <h2 class="wow fadeInUp" data-wow-delay="300ms" style="padding: 20px;">
                             Our Journey is Anchored in Core Values that Drive Every Action We Take
                         </h2>
-                        <div class="heading-divider"></div>
-                        <div style="display: flex; gap: 15px;margin-bottom: 100px;margin-top: 100px;">
+                        <div class="heading-divider wow fadeInUp" data-wow-delay="300ms"></div>
+                        <div id="aboutus-journey" class="wow fadeInUp" data-wow-delay="300ms" style="">
                             <div class="aboutuscards">
                                 <div class="beforehover"><img
                                         src="assets/img/illustration/aboutus-outboundideation.svg" />
@@ -182,9 +181,12 @@
                                 </div>
                                 <div class="afterhover"><img
                                         src="assets/img/illustration/aboutus-outboundideation-hover.svg" />
-                                    <h3>Outbound Ideation</h3>
-                                    <p>We believe in the power of great ideas and do whatever it takes to bring them to
-                                        life.</p>
+                                    <div>
+                                        <h3>Outbound Ideation</h3>
+                                        <p>We believe in the power of great ideas and do whatever it takes to bring them
+                                            to
+                                            life.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="aboutuscards">
@@ -194,9 +196,11 @@
                                 </div>
                                 <div class="afterhover"><img
                                         src="assets/img/illustration/thrivinginchallenge-hover.png" />
-                                    <h3>Thriving in Challenge</h3>
-                                    <p>Our strength lies in confidently navigating through seemingly unreasonable
-                                        business scenarios, learning through testing and experimentation.</p>
+                                    <div>
+                                        <h3>Thriving in Challenge</h3>
+                                        <p>Our strength lies in confidently navigating through seemingly unreasonable
+                                            business scenarios, learning through testing and experimentation.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="aboutuscards">
@@ -206,9 +210,12 @@
                                 </div>
                                 <div class="afterhover"><img
                                         src="assets/img/illustration/aboutus-unselfishtrust-hover.svg" />
-                                    <h3>Unselfish Trust</h3>
-                                    <p>We believe in the power of great ideas and do whatever it takes to bring them to
-                                        life.</p>
+                                    <div>
+                                        <h3>Unselfish Trust</h3>
+                                        <p>We believe in the power of great ideas and do whatever it takes to bring them
+                                            to
+                                            life.</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="aboutuscards">
@@ -217,9 +224,11 @@
                                 </div>
                                 <div class="afterhover"><img
                                         src="assets/img/illustration/pursuitofperfection-hover.png" />
-                                    <h3>Pursuit Of Perfection</h3>
-                                    <p>Our quest for excellence is relentless, marked by constant iteration and
-                                        dissatisfaction with anything less than perfect.</p>
+                                    <div>
+                                        <h3>Pursuit Of Perfection</h3>
+                                        <p>Our quest for excellence is relentless, marked by constant iteration and
+                                            dissatisfaction with anything less than perfect.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -229,16 +238,19 @@
         </div>
     </div>
 
-    <div id="points" class="choose-us-area default-padding bg-gray">
+    <div id="points" class="choose-us-area default-padding-top bg-gray">
         <div class="container">
             <div class="row align-center">
-                <div class="col-lg-6 wow fadeInUp">
-                    <h2>GRX10: Redefining Business Solutions </h2>
-                    <p>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="300ms">
+                    <h2>GRX <sup>10</sup> : Redefining Business Solutions </h2>
+                    <div style="display: flex; justify-content: center;">
+                        <div id="mobileimage" class="heading-divider wow fadeInUp" style="margin-bottom: 30px;" data-wow-delay="300ms"></div>
+                    </div>
+                    <h5>
                         In an unforgiving business environment, akin to assembling an Airbus A320 with its 340,000
                         parts, we prioritize perfection. Our approach focuses on:
-                    </p>
-                    <ul>
+                    </h5>
+                    <ul id="points-content">
                         <li style="width: 100%;">
                             <h5>Quality Over Quantity</h5>
                             <p>
@@ -266,26 +278,26 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-6 thumb wow fadeInRight">
+                <div id="desktopimage" class="col-lg-6 thumb wow fadeInUp" data-wow-delay="300ms">
                     <img src="assets/img/illustration/aboutus-points-image1.svg" alt="Thumb">
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="points" class="choose-us-area default-padding bg-gray">
-        <div class="container">
+    <div id="points" class="choose-us-area default-padding-bottom bg-gray">
+        <div class="container wow fadeInUp" data-wow-delay="300ms">
             <div class="row align-center">
-                <div id="desktopimage" class="col-lg-6 thumb wow fadeInRight">
+                <div id="desktopimage" class="col-lg-6 thumb">
                     <img src="assets/img/illustration/aboutus-points-image2.svg" alt="Thumb">
                 </div>
                 <div class="col-lg-6 wow fadeInUp">
-                    <p>
+                    <p id="desktopimage">
                         Unlike traditional consulting firms or digital marketing agencies, we've structured GRX10 to
                         directly address and solve our clients' problems. Our team is divided into four layers of
                         competencies
                     </p>
-                    <ul>
+                    <ul id="points-content">
                         <li style="width: 100%;">
                             <h5>Founders</h5>
                             <p>
@@ -316,15 +328,12 @@
                         </li>
                     </ul>
                 </div>
-                <div id="mobileimage" class="col-lg-6 thumb wow fadeInRight">
-                    <img src="assets/img/illustration/aboutus-points-image2.svg" alt="Thumb">
-                </div>
             </div>
         </div>
     </div>
 
     <div class="team-area default-padding bottom-less">
-        <div class="container">
+        <div class="container wow fadeInUp" data-wow-delay="300ms">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
@@ -344,17 +353,18 @@
                                 <h1 style="margin: 5px; font-size: 30px; margin-bottom: 0px; ">Sriram</h1>
                                 <p style=" margin: 5px; font-size: 15px; margin-top: 0px;">Co-founder</p>
                             </div>
-                            <img src="sriram.png"
+                            <img src="assets/img/sriram.webp"
                                 style="margin-left: 17%; margin-top: 16%;width: 87%; height: 90% ;object-fit: contain;" />
                         </div>
                         <div class="profileinfo">
-                            <img src="sriram-click.png" style="width: 100px;">
+                            <img src="assets/img/sriram-click.png" style="width: 100px;">
                             <h2>Sriram</h2>
                             <h3>Co-founder</h3>
                             <p>"There is no science without experimentation"</p>
                             <a href="https://in.linkedin.com/in/sgopalaswamy" target="_blank"><i class="fab fa-linkedin"
                                     style="font-size: 40px;"></i></a>
-                            <a style="color: rgb(102, 102, 102);margin-top: 5px;" href="mailto:sriram@grx10.com">sriram@grx10.com</a>
+                            <a style="color: rgb(102, 102, 102);margin-top: 5px;"
+                                href="mailto:sriram@grx10.com">sriram@grx10.com</a>
                         </div>
                     </div>
                     <div class="profile">
@@ -364,19 +374,34 @@
                                 <h1 style="margin: 5px; font-size: 30px; margin-bottom: 0px; ">Prem</h1>
                                 <p style=" margin: 5px; font-size: 15px; margin-top: 0px;">Co-founder</p>
                             </div>
-                            <img src="prem.png"
+                            <img src="assets/img/prem.webp"
                                 style="margin-left: 20%; margin-top: 14%;width: 80%; height: 90%; object-fit: fill;" />
                         </div>
                         <div class="profileinfo">
-                            <img src="prem-click.png" style="width: 100px;">
+                            <img src="assets/img/prem-click.png" style="width: 100px;">
                             <h2>Prem Arora</h2>
                             <h3>Co-founder</h3>
                             <p>"The most elegant solution is often the simplest"</p>
                             <a href="https://in.linkedin.com/in/aroraprem" target="_blank"><i class="fab fa-linkedin"
                                     style="font-size: 40px;"></i></a>
-                            <a style="color: rgb(102, 102, 102);margin-top: 5px;" href="mailto:prem@grx10.com">prem@grx10.com</a>
+                            <a style="color: rgb(102, 102, 102);margin-top: 5px;"
+                                href="mailto:prem@grx10.com">prem@grx10.com</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="choose-us-area default-padding">
+        <div class="container wow fadeInUp" data-wow-delay="300ms">
+            <div class="row align-center">
+                <div class="col"
+                    style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                    <video class="container" controls style="border-radius: 5px; object-fit: contain;" autoplay>
+                        <source src="https://res.cloudinary.com/dr0f5ryhd/video/upload/v1710227315/about_us_ea8jvl.mp4#t=2" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
                 </div>
             </div>
         </div>
@@ -411,143 +436,127 @@
         <div class="container">
             <div class="f-items default-padding-top" style="border-bottom: 1px #D5D5D5 solid ;">
                 <div class="row">
-                    <div class="col-lg-4 col-md-2 item">
+                    <div class="col-md-3 col-sm-12 item">
                         <div class="row">
-                            <div class="f-item about col">
-                                <img src="assets/img/logo-cornflower-blue.png" alt="Logo">
-                            </div>
-                            <div id="mobileimage" class="col item"
-                                style="width: 100%; height: 100%; margin-top: 0px; display: flex; align-items: center; justify-content: flex-end;">
-                                <a href="https://share.hsforms.com/1gkFtNzjGTiazX19liGrYUgqr4pd" target="_blank">
-                                    <div class="f-item link h-100">
-                                        <h4 id="mobileimage" class="sidenav"
-                                            style="cursor: pointer; text-align: right; height: 100%; font-weight: 600; color: #FF249C;">
-                                            Enquire Now</h4>
-                                    </div>
-                                </a>
+                            <div id="footer-logo">
+                                <img src="assets/img/logo-cornflower-blue.png" alt="Logo" />
                             </div>
                         </div>
-                        <div class="address" id="desktopimage">
+                        <div class="address">
                             <ul>
                                 <li>
-                                    <div class="info"
-                                        style="display: flex; flex-direction: row; align-items: center;gap: 10px; font-size: 16px;">
-                                        <a href="mailto:admin@grx10.com"><span>admin@grx10.com</span></a>
-                                        <a href="https://www.instagram.com/grx10_official/"><i class="fab fa-instagram"
-                                                style="color: var(--Text-Body, #565656);"></i></a>
-                                        <a href="https://in.linkedin.com/company/grx10" target="_blank"><i
-                                                class="fab fa-linkedin"
-                                                style="color: var(--Text-Body, #565656);"></i></a>
-                                    </div>
+                                    <a id="mobileimage" href="https://www.instagram.com/grx10_official/"><i
+                                            class="fab fa-instagram"
+                                            style="color: var(--Text-Body, #2F2F38);font-size: 24px;"></i> </a>
+                                    <a id="mobileimage" href="https://in.linkedin.com/company/grx10" target="_blank"><i
+                                            class="fab fa-linkedin"
+                                            style="color: var(--Text-Body, #2F2F38); font-size: 24px;;margin-left: 15px; margin-right: 15px;"></i></a>
+                                    <a href="mailto:admin@grx10.com"
+                                        style="display: flex; align-items: center; gap:7px"> <i class="fa fa-envelope"
+                                            style="color: var(--Text-Body, #2F2F38); font-size: 24px;"></i>
+                                        <span>admin@grx10.com</span></a>
+
+                                </li>
+                                <li>
+                                    <a id="desktopimage" href="https://www.instagram.com/grx10_official/"><i
+                                            class="fab fa-instagram"
+                                            style="color: var(--Text-Body, #2F2F38);font-size: 24px;"></i> </a>
+                                    <a id="desktopimage" href="https://in.linkedin.com/company/grx10" target="_blank"><i
+                                            class="fab fa-linkedin"
+                                            style="color: var(--Text-Body, #2F2F38); font-size: 24px;;margin-left: 10px;"></i></a>
+                                </li>
+                                <li>
+                                    <p>
+                                        <br id="desktopimage">
+                                        <i class="fa fa-map-marked"
+                                            style="color: var(--Text-Body, #2F2F38); font-size: 15px;"></i>
+                                        Service road, 3161, first floor, 12th main, Paramahansa Yogananda Rd, HAL 2nd
+                                        Stage, Bengaluru, Karnataka 560008
+                                    </p>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col item">
-                        <div class="f-item link">
-                            <h4 class="widget-title">Company</h4>
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="about-us.html">About us</a>
-                                </li>
-                                <li>
-                                    <a href="index.html#blogs">Blog</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="col-md-4">
+                        <iframe id="googlemap"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0342046250184!2d77.63326877436614!3d12.969663114922204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17b43e918d51%3A0xaca75bccf499a092!2sGRX10%20Solutions%20Private%20Limited!5e0!3m2!1sen!2sin!4v1709408515195!5m2!1sen!2sin"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <div class="col-md-5">
+                        <div class="row" style="height: 100%;">
+                            <div class="col-md-4 col-4 item">
+                                <div class="f-item link">
+                                    <h4 class="widget-title" style="width: 100%">Company</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-us.html">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#blogs">Blog</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
 
-                    <div class="col item">
-                        <div class="f-item link">
-                            <h4 class="widget-title">Services</h4>
-                            <ul>
-                                <li>
-                                    <a href="product-marketing.html">Product marketing</a>
-                                </li>
-                                <li>
-                                    <a href="digital-marketing.html">Digital marketing</a>
-                                </li>
-                                <li>
-                                    <a href="e-commerce.html">E - Commerce</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                            <div class="col-md-4 col-4 item">
+                                <div class="f-item link">
+                                    <h4 class="widget-title" style="width: 100%">Services</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="product-marketing.html">Product marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="digital-marketing.html">Digital marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="e-commerce.html">E - Commerce</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
 
-                    <div class="col col-md-2 item">
-                        <div class="f-item recent-post">
-                            <h4 class="widget-title">Latest Blogs</h4>
-                            <div class="item">
-                                <a href="https://grx10.blogspot.com/2024/02/grx10-logo-inception-and-significance.html"
-                                    target="_blank">GRX10 - Logo, Inception and Significance</a>
+                            <div class="col-md-4 col-4 item">
+                                <div class="f-item link">
+                                    <h4 class="widget-title" style="width: 100%">Others</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="privacypolicy.html">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="legaldisclaimer.html">Legal Disclaimer</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Careers</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="copyright" class="col item">
+                                <p style="margin: 0px; font-size: 13px; margin-bottom: 16px;">Copyright &copy; <span
+                                        id="year"></span>.
+                                    Designed by GRX10</p>
                             </div>
                         </div>
                     </div>
 
-                    <div id="desktopimage" class="col-lg-2 col-md-1 item">
-                        <div class="f-item link">
-                            <h4 class="widget-title sidenav" style="color: #FF249C;cursor: pointer;">Enquire Now</h4>
-                        </div>
-                    </div>
-                </div>
-                <div id="mobileimage" class="row"
-                    style="width: 100%;height: fit-content; margin-top: 40px; margin-bottom: 20px; display: flex; ">
-                    <div id="mobileimage" class="col">
-                        <i class="fa fa-envelope" aria-hidden="true"></i> <a
-                            href="mailto:admin@grx10.com">admin@grx10.com</a>
-                    </div>
-                    <div id="mobileimage" class="col" style="text-align: right; padding-right: 0px;">
-                        <a style="margin-right: 10px; font-size: 21px;"
-                            href="https://www.instagram.com/grx10_official/"><i class="fab fa-instagram"
-                                style="color: var(--Text-Body, #565656);"></i></a>
-                        <a style="font-size: 21px;" href="https://in.linkedin.com/company/grx10" target="_blank"><i
-                                class="fab fa-linkedin" style="color: var(--Text-Body, #565656);"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Start Footer Bottom -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p style="color: var(--Text-Body, #565656);">Copyright &copy; <span id="year"></span>. Designed
-                            by <a style="color: var(--Text-Body, #565656);" href="#">GRX10</a></p>
-                    </div>
-                    <div id="mobileimage" class="col-md-6 text-right link">
-                        <ul class="row">
-                            <li id="mobileimage" class="col-md-12 col-lg">
-                                <a style="font-weight: normal; text-align: left;" href="privacypolicy.html">Privacy
-                                    Policy</a>
-                            </li>
-                            <li id="mobileimage" class="col-md-12 col-lg">
-                                <a style="font-weight: normal;" href="legaldisclaimer.html">Legal Disclaimer</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="desktopimage" class="col text-right link">
-                        <a style="font-weight: normal; text-align: left;" href="privacypolicy.html">Privacy
-                            Policy</a>
-                        <a style="font-weight: normal; margin-left: 18px;" href="legaldisclaimer.html">Legal
-                            Disclaimer</a>
-                    </div>
                 </div>
             </div>
         </div>
-        <!-- End Footer Bottom -->
     </footer>
     <!-- End Footer -->
 
     <!-- jQuery Frameworks
     ============================================= -->
-    <script src="assets/js/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdn.usebootstrap.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="assets/js/equal-height.min.js"></script>
+
     <script src="assets/js/jquery.appear.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
