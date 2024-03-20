@@ -7202,7 +7202,7 @@ li>.info a:hover {
     height: 25vh;
   }
 
-  #herosection .col #index-hero-img{
+  #herosection .col #index-hero-img {
     height: 50vh;
   }
 
@@ -7460,6 +7460,26 @@ li>.info a:hover {
   transition: ease-in-out 0.1s;
 }
 
+#logistics-optimize .col {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#logistics-optimize .col div:has(h2) {
+  border: 1px solid black;
+  height: 126px;
+  width: 126px;
+  border-radius: 50%;
+  background-color: #B6A5F5;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1023px) {
   .center-tabs .nav-tabs {
     height: auto;
@@ -7566,7 +7586,24 @@ li>.info a:hover {
     display: block;
   }
 
-  .col:has(video){
+  .col:has(video) {
     padding: 0px;
+  }
+
+  #logistics-optimize .col{
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  #logistics-optimize .col div:has(h2) {
+    display: none;
+  }
+
+  #logistics-optimize.row{
+    flex-direction: column;
+  }
+
+  #info > h4.text-center{
+    font-weight: 600;
   }
 }
