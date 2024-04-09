@@ -318,7 +318,7 @@
             # Team Carousel
          ===============================================*/
         $('.team-carousel').owlCarousel({
-            loop: false,
+            loop: true,
             margin: 30,
             nav: false,
             navText: [

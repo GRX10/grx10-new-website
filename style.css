@@ -7622,6 +7622,23 @@ li>.info a:hover {
   min-height: 180px;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.impact-new {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid #D9D9D9;
+  background: #F4F4F4;
+  padding: 30px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  aspect-ratio: 1.5/1;
+  display: flex;
+  align-items: center;
 }
 
 .impact h3{
@@ -7640,6 +7657,14 @@ li>.info a:hover {
 .impact-info-pink{
   font-weight: 600;
   color: #FF249C;
+}
+
+.impact .row{
+  align-items: center;
+}
+
+.impact .col{
+  font-size: 20px;
 }
 
 @media (max-width: 800px) {
