@@ -327,6 +327,7 @@
             ],
             dots: true,
             autoplay: true,
+            slideSpeed: 200,
             responsive: {
                 0: {
                     items: 1
