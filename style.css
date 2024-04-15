@@ -494,8 +494,8 @@ input {
 }
 
 .default-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 52px;
+  padding-bottom: 52px;
 }
 
 .default-padding-mx {
@@ -504,7 +504,7 @@ input {
 }
 
 .default-padding-top {
-  padding-top: 120px;
+  padding-top: 48px;
 }
 
 .default-padding-bottom {
@@ -512,8 +512,8 @@ input {
 }
 
 .default-padding.bottom-less {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .default-padding-bottom.bottom-less {
@@ -1221,7 +1221,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 }
 
 .site-heading {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   overflow: hidden;
   margin-top: -5px;
 }
@@ -6764,13 +6764,11 @@ footer .footer-bottom .text-right li {
 @media (max-width: 800px) {
   #banner-area-home {
     display: block;
-    height: 100vh;
     background-image: none;
   }
 
   #banner-area-home .container {
     margin-top: 70px;
-    height: 100vh;
     width: 100vw;
     background-size: contain;
     background-repeat: no-repeat;
@@ -7101,7 +7099,7 @@ li>.info a:hover {
 
 .aboutuscards {
   width: 300px;
-  height: 480px;
+  height: 420px;
   border-radius: 20px;
   background-color: #6667AB;
 }
@@ -7667,9 +7665,21 @@ li>.info a:hover {
   font-size: 20px;
 }
 
+.banner-padding{
+  height: 80%;
+  padding-top: 56px;
+}
+
 @media (max-width: 800px) {
   .impact {
     line-height: normal;
     min-height: 100px;
   }
+
+  .banner-padding{
+    height: 100%;
+    padding-top: 0px;
+  }
 }
+
+
