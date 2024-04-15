@@ -494,8 +494,8 @@ input {
 }
 
 .default-padding {
-  padding-top: 52px;
-  padding-bottom: 52px;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 
 .default-padding-mx {
@@ -3036,11 +3036,6 @@ body,
   text-align: center;
   color: #ffffff;
   border-radius: 5px;
-}
-
-.choose-us-area h2 {
-  margin-bottom: 30px;
-
 }
 
 .choose-us-area h2 strong {
@@ -7269,8 +7264,8 @@ li>.info a:hover {
 #aboutus-journey {
   display: flex;
   gap: 15px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin-bottom: 52px;
+  margin-top: 52px;
 }
 
 #banner-area-home.index {
