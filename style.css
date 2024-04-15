@@ -494,8 +494,9 @@ input {
 }
 
 .default-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+
 }
 
 .default-padding-mx {
@@ -504,7 +505,7 @@ input {
 }
 
 .default-padding-top {
-  padding-top: 120px;
+  padding-top: 48px;
 }
 
 .default-padding-bottom {
@@ -512,8 +513,8 @@ input {
 }
 
 .default-padding.bottom-less {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .default-padding-bottom.bottom-less {
@@ -1221,7 +1222,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 }
 
 .site-heading {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   overflow: hidden;
   margin-top: -5px;
 }
@@ -3036,11 +3037,6 @@ body,
   text-align: center;
   color: #ffffff;
   border-radius: 5px;
-}
-
-.choose-us-area h2 {
-  margin-bottom: 30px;
-
 }
 
 .choose-us-area h2 strong {
@@ -6764,13 +6760,11 @@ footer .footer-bottom .text-right li {
 @media (max-width: 800px) {
   #banner-area-home {
     display: block;
-    height: 100vh;
     background-image: none;
   }
 
   #banner-area-home .container {
     margin-top: 70px;
-    height: 100vh;
     width: 100vw;
     background-size: contain;
     background-repeat: no-repeat;
@@ -7101,7 +7095,7 @@ li>.info a:hover {
 
 .aboutuscards {
   width: 300px;
-  height: 480px;
+  height: 420px;
   border-radius: 20px;
   background-color: #6667AB;
 }
@@ -7271,8 +7265,8 @@ li>.info a:hover {
 #aboutus-journey {
   display: flex;
   gap: 15px;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin-bottom: 52px;
+  margin-top: 52px;
 }
 
 #banner-area-home.index {
@@ -7590,7 +7584,7 @@ li>.info a:hover {
     padding: 0px;
   }
 
-  #logistics-optimize .col{
+  #logistics-optimize .col {
     flex-direction: row;
     gap: 15px;
   }
@@ -7599,11 +7593,89 @@ li>.info a:hover {
     display: none;
   }
 
-  #logistics-optimize.row{
+  #logistics-optimize.row {
     flex-direction: column;
   }
 
-  #info > h4.text-center{
+  #info>h4.text-center {
     font-weight: 600;
   }
 }
+
+.impact {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid #D9D9D9;
+  background: #F4F4F4;
+  padding: 30px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.impact-new {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid #D9D9D9;
+  background: #F4F4F4;
+  padding: 30px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  aspect-ratio: 1.5/1;
+  display: flex;
+  align-items: center;
+}
+
+.impact h3{
+  font-weight: 600;
+}
+
+.impact .info{
+  height: 100%;
+}
+
+.impact-info-purple{
+  font-weight: 600;
+  color: #6667AB;
+}
+
+.impact-info-pink{
+  font-weight: 600;
+  color: #FF249C;
+}
+
+.impact .row{
+  align-items: center;
+}
+
+.impact .col{
+  font-size: 20px;
+}
+
+.banner-padding{
+  height: 80%;
+  padding-top: 56px;
+}
+
+@media (max-width: 800px) {
+  .impact {
+    line-height: normal;
+    min-height: 243px;
+  }
+
+  .banner-padding{
+    height: 100%;
+    padding-top: 0px;
+  }
+}
+
+
